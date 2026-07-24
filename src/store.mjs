@@ -11,7 +11,7 @@ export const DATA_DIR = join(__dirname, '..', 'docs', 'data');
 
 const MENTIONS_CAP = 500; // liste roulante
 const RUNS_CAP = 200;
-const ALERT_THRESHOLD = 'MODERATE'; // alerte si une NOUVELLE mention atteint ce risque
+const ALERT_THRESHOLD = 'HIGH'; // alerte uniquement sur les NOUVELLES mentions HIGH (= liées aux chats/animaux)
 
 const paths = {
   state: join(DATA_DIR, 'state.json'),

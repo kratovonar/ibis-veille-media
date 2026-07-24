@@ -41,10 +41,27 @@ const POSITIVE = [
   'resgate', 'salvos', 'salvo',
 ];
 
-// Entités du sujet — une mention n'est vraiment "on-topic" que si elle croise
-// l'hôtel/marque OU la colonie de chats/animaux.
+// Entités du sujet.
 const TOPIC_BRAND = ['ibis', 'accor', 'saldanha', 'arroios'];
-const TOPIC_CATS = ['cat', 'cats', 'colony', 'gato', 'gatos', 'colónia', 'colonia', 'felino', 'animais', 'animal'];
+
+// Chats / félins / animaux — élargi à plusieurs langues (le HIGH exige d'en trouver un).
+// foldAccents() gère déjà les accents, donc « colónia » == « colonia ».
+const TOPIC_CATS = [
+  // EN
+  'cat', 'cats', 'kitten', 'kittens', 'feline', 'felines', 'stray', 'strays', 'feral',
+  'cat colony', 'colony', 'animal', 'animals', 'animal welfare', 'animal rights',
+  // PT
+  'gato', 'gatos', 'gata', 'gatas', 'gatinho', 'gatinhos', 'felino', 'felinos', 'felina',
+  'colónia', 'colonia', 'colónia de gatos', 'animais', 'bem-estar animal',
+  // FR
+  'chat', 'chats', 'chaton', 'chatons', 'félin', 'colonie de chats',
+  // ES
+  'gatito', 'gatitos', 'colonia de gatos', 'felinos',
+  // IT
+  'gatto', 'gatti', 'gattino', 'colonia di gatti',
+  // DE
+  'katze', 'katzen',
+];
 
 function foldAccents(s = '') {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -73,19 +90,19 @@ export function classifySentiment(mention) {
   return 'neutre';
 }
 
-// Risque : croise sensibilité du sujet et amplification (plateforme + on-topic).
+// Risque — recentré sur les chats/animaux.
+// RÈGLE : une mention n'est HIGH (= niveau d'alerte) QUE si elle parle de
+// chats/animaux (TOPIC_CATS, toutes langues). Le reste ne déclenche pas d'alerte.
 export function classifyRisk(mention) {
   const t = hay(mention);
   const onBrand = anyIn(t, TOPIC_BRAND);
   const onCats = anyIn(t, TOPIC_CATS);
-  const onTopic = onBrand && onCats; // le vrai sujet sensible = hôtel × chats
   const sensitive = anyIn(t, SENSITIVE);
 
-  // Diffusion : le social ouvert amplifie plus vite qu'un article isolé.
-  const social = mention.platform !== 'news';
-
-  if (sensitive && (onTopic || onBrand)) return 'HIGH';
-  if (sensitive || (onTopic && social)) return 'MODERATE';
+  // HIGH : parle de chats/animaux ET (terme à risque OU croise la marque/hôtel).
+  if (onCats && (sensitive || onBrand)) return 'HIGH';
+  // MODERATE : à surveiller mais pas alertant — chats seuls, ou terme à risque hors sujet chats.
+  if (onCats || sensitive) return 'MODERATE';
   return 'LOW';
 }
 

@@ -43,12 +43,26 @@ Liens générés sur le dashboard pour : `ibis Lisboa Centro Saldanha` · `coló
 
 ## Fonctionnement
 
-1. `collect.mjs` interroge chaque source pour les 16 mots-clés (`src/keywords.mjs`).
+1. `collect.mjs` interroge chaque source pour les mots-clés (`src/keywords.mjs`).
 2. Chaque mention reçoit un **id stable** (plateforme + URL normalisée) et est **classée** par règles
    (`src/classify.mjs`) : `owned`/`earned`, risque `HIGH`/`MODERATE`/`LOW`, sentiment.
 3. Déduplication contre `docs/data/state.json` → les mentions inédites sont marquées **nouvelles**.
-4. **Statut du run** : `ALERT` si une *nouvelle* mention atteint le seuil (**MODERATE** par défaut,
+4. **Statut du run** : `ALERT` si une *nouvelle* mention atteint le seuil (**HIGH** par défaut,
    voir `ALERT_THRESHOLD` dans `src/store.mjs`), sinon `RAS`.
+
+### Règle de risque (recentrée sur les chats/animaux)
+
+Une mention n'est **HIGH — donc alertante** — **que si elle parle de chats/animaux** (liste multilingue
+EN/PT/FR/ES/IT/DE dans `TOPIC_CATS`, `src/classify.mjs`) :
+
+| Risque | Condition | Alerte |
+|---|---|---|
+| **HIGH** | parle de **chats/animaux** **ET** (terme à risque **OU** croise la marque ibis/Saldanha) | 🔴 oui |
+| **MODERATE** | chats/animaux seuls, **ou** terme à risque **sans** chats | ⚪ non |
+| **LOW** | le reste (mention de marque banale, hors sujet) | ⚪ non |
+
+Concrètement : un article « ibis ouvre à Bangkok » ou une grève sans rapport avec les chats **n'alertent pas** ;
+seul le croisement **chats × (risque ou hôtel)** déclenche une alerte.
 5. Écriture de `latest.json`, `runs.json`, `mentions.json`, `state.json` → commit & push.
 6. Si `ALERT` : le workflow ouvre/actualise une Issue `veille-alerte`.
 
