@@ -18,14 +18,15 @@ function fmtDate(iso) {
   if (!iso) return '—';
   const d = new Date(iso);
   if (isNaN(d)) return '—';
-  return d.toLocaleString('fr-FR', {
+  const s = d.toLocaleString('fr-FR', {
     day: '2-digit', month: '2-digit', year: 'numeric',
-    hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Lisbon',
+    hour: '2-digit', minute: '2-digit', timeZone: 'UTC',
   });
+  return `${s} UTC`;
 }
 function fmtDay(iso) {
   const d = new Date(iso);
-  return isNaN(d) ? '—' : d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', timeZone: 'Europe/Lisbon' });
+  return isNaN(d) ? '—' : d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', timeZone: 'UTC' });
 }
 
 async function loadJson(name, fallback) {
