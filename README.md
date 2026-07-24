@@ -63,6 +63,15 @@ EN/PT/FR/ES/IT/DE dans `TOPIC_CATS`, `src/classify.mjs`) :
 
 Concrètement : un article « ibis ouvre à Bangkok » ou une grève sans rapport avec les chats **n'alertent pas** ;
 seul le croisement **chats × (risque ou hôtel)** déclenche une alerte.
+
+### Fenêtre de récence des alertes
+
+Seules les mentions **publiées à partir du 20/07/2026** peuvent déclencher une alerte (les vieux
+articles simplement (ré)indexés sont ignorés côté alerte, mais restent visibles dans la table).
+Réglage : `ALERT_SINCE` dans [`src/store.mjs`](src/store.mjs), surchargeable par la variable
+d'environnement `VEILLE_ALERT_SINCE`. Une mention sans date de publication est réputée récente
+(elle vient d'être captée). Pour une **fenêtre glissante** (ex. 30 derniers jours), passer une date
+calculée via `VEILLE_ALERT_SINCE`.
 5. Écriture de `latest.json`, `runs.json`, `mentions.json`, `state.json` → commit & push.
 6. Si `ALERT` : le workflow ouvre/actualise une Issue `veille-alerte`.
 

@@ -9,7 +9,7 @@ import { collectBluesky } from './sources/bluesky.mjs';
 import { collectMastodon } from './sources/mastodon.mjs';
 import { classify } from './classify.mjs';
 import { makeId } from './util.mjs';
-import { loadStore, reconcile, persist, ALERT_THRESHOLD } from './store.mjs';
+import { loadStore, reconcile, persist, ALERT_THRESHOLD, ALERT_SINCE } from './store.mjs';
 
 // Horodatage figé pour tout le passage (déterministe, injectable pour les tests).
 const NOW = process.env.VEILLE_NOW ? new Date(process.env.VEILLE_NOW) : new Date();
@@ -128,6 +128,7 @@ async function main() {
     status: rec.status,
     isBaseline: store.isFirstRun,
     alertThreshold: ALERT_THRESHOLD,
+    alertSince: ALERT_SINCE,
     nextRun,
     counts: { total: rec.nTotal, new: rec.nNew, byRisk: rec.byRisk },
     newMentions: rec.newMentions,

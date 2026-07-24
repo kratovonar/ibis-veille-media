@@ -13,6 +13,19 @@ const MENTIONS_CAP = 500; // liste roulante
 const RUNS_CAP = 200;
 const ALERT_THRESHOLD = 'HIGH'; // alerte uniquement sur les NOUVELLES mentions HIGH (= liées aux chats/animaux)
 
+// N'alerter que sur les mentions PUBLIÉES à partir de cette date (les vieux articles
+// simplement (ré)indexés ne déclenchent pas d'alerte). Surchargée par VEILLE_ALERT_SINCE.
+// Astuce : pour une fenêtre glissante, mettre une date calculée (ex. il y a 30 jours) via l'env.
+const ALERT_SINCE = process.env.VEILLE_ALERT_SINCE || '2026-07-20T00:00:00Z';
+
+// Date effective d'une mention pour le test de récence : date de publication si connue,
+// sinon date de première détection (une mention tout juste captée est réputée récente).
+function isRecentEnough(m) {
+  const eff = m.publishedAt || m.firstSeenAt;
+  if (!eff) return true; // aucune date : ne pas bloquer l'alerte
+  return eff >= ALERT_SINCE;
+}
+
 const paths = {
   state: join(DATA_DIR, 'state.json'),
   mentions: join(DATA_DIR, 'mentions.json'),
@@ -93,7 +106,9 @@ export function reconcile({ state, mentions, collected, isFirstRun, nowIso }) {
   for (const m of allMentions) byRisk[m.risk] = (byRisk[m.risk] || 0) + 1;
 
   const threshold = RISK_ORDER[ALERT_THRESHOLD];
-  const alerting = newMentions.filter((m) => RISK_ORDER[m.risk] >= threshold);
+  const alerting = newMentions.filter(
+    (m) => RISK_ORDER[m.risk] >= threshold && isRecentEnough(m)
+  );
   const status = alerting.length > 0 ? 'ALERT' : 'RAS';
 
   return {
@@ -118,4 +133,4 @@ export async function persist({ known, allMentions, runs, run, latest }) {
   ]);
 }
 
-export { ALERT_THRESHOLD };
+export { ALERT_THRESHOLD, ALERT_SINCE };
