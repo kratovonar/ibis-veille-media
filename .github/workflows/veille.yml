@@ -1,12 +1,14 @@
 name: Veille ibis Saldanha
 
 # Collecte 2x/jour. Heures en UTC :
-#   08:00 UTC = 09h Lisboa (été / WEST) ou 08h (hiver / WET)
-#   16:00 UTC = 17h Lisboa (été / WEST) ou 16h (hiver / WET)
+#   08:17 UTC = 09h17 Lisboa (été / WEST) ou 08h17 (hiver / WET)
+#   16:17 UTC = 17h17 Lisboa (été / WEST) ou 16h17 (hiver / WET)
 on:
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 16 * * *'
+    # Minutes décalées hors de l'heure pile (:00) : GitHub abandonne souvent les
+    # runs planifiés à :00 quand la charge est élevée. :17 est nettement plus fiable.
+    - cron: '17 8 * * *'
+    - cron: '17 16 * * *'
   workflow_dispatch:
     inputs:
       inject_test:
