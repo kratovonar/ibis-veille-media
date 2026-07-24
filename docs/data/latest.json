@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-07-24T13:04:35.226Z",
+  "status": "RAS",
+  "isBaseline": true,
+  "alertThreshold": "MODERATE",
+  "nextRun": "2026-07-24T16:00:00.000Z",
+  "counts": {
+    "total": 231,
+    "new": 0,
+    "byRisk": {
+      "HIGH": 11,
+      "MODERATE": 13,
+      "LOW": 207
+    }
+  },
+  "newMentions": [],
+  "alerting": [],
+  "manualWatch": [
+    {
+      "query": "ibis Lisboa Centro Saldanha",
+      "instagramTag": "https://www.instagram.com/explore/tags/ibislisboacentrosaldanha/",
+      "facebook": "https://www.facebook.com/search/top?q=ibis%20Lisboa%20Centro%20Saldanha",
+      "x": "https://x.com/search?q=ibis%20Lisboa%20Centro%20Saldanha&f=live",
+      "googleNews": "https://news.google.com/search?q=ibis%20Lisboa%20Centro%20Saldanha"
+    },
+    {
+      "query": "colónia de gatos Arroios",
+      "instagramTag": "https://www.instagram.com/explore/tags/col%C3%B3niadegatosarroios/",
+      "facebook": "https://www.facebook.com/search/top?q=col%C3%B3nia%20de%20gatos%20Arroios",
+      "x": "https://x.com/search?q=col%C3%B3nia%20de%20gatos%20Arroios&f=live",
+      "googleNews": "https://news.google.com/search?q=col%C3%B3nia%20de%20gatos%20Arroios"
+    },
+    {
+      "query": "colónia de gatos Saldanha",
+      "instagramTag": "https://www.instagram.com/explore/tags/col%C3%B3niadegatossaldanha/",
+      "facebook": "https://www.facebook.com/search/top?q=col%C3%B3nia%20de%20gatos%20Saldanha",
+      "x": "https://x.com/search?q=col%C3%B3nia%20de%20gatos%20Saldanha&f=live",
+      "googleNews": "https://news.google.com/search?q=col%C3%B3nia%20de%20gatos%20Saldanha"
+    },
+    {
+      "query": "Casa dos Animais de Lisboa",
+      "instagramTag": "https://www.instagram.com/explore/tags/casadosanimaisdelisboa/",
+      "facebook": "https://www.facebook.com/search/top?q=Casa%20dos%20Animais%20de%20Lisboa",
+      "x": "https://x.com/search?q=Casa%20dos%20Animais%20de%20Lisboa&f=live",
+      "googleNews": "https://news.google.com/search?q=Casa%20dos%20Animais%20de%20Lisboa"
+    }
+  ],
+  "sources": [
+    "google_news",
+    "reddit",
+    "bluesky",
+    "mastodon"
+  ]
+}
