@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Veille — ibis Lisboa Centro Saldanha / colonie de chats</title>
+    <meta name="description" content="Veille social media proactive : ibis Lisboa Centro Saldanha et colonie de chats d'Arroios." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%88%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <span class="brand-mark">🐈‍⬛</span>
+          <div>
+            <h1>Veille réputationnelle</h1>
+            <p class="sub">ibis Lisboa Centro Saldanha · colonie de chats d'Arroios</p>
+          </div>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Changer de thème">🌓</button>
+      </div>
+    </header>
+
+    <main class="wrap" id="app">
+      <!-- Bandeau d'état -->
+      <section id="status-hero" class="hero" aria-live="polite">
+        <div class="hero-loading">Chargement des données de veille…</div>
+      </section>
+
+      <!-- Bannière d'alerte (nouvelles mentions à risque) -->
+      <section id="alert-banner" hidden></section>
+
+      <!-- Timeline des passages -->
+      <section class="card">
+        <div class="card-head">
+          <h2>Historique des passages</h2>
+          <span class="hint">Un rapport à chaque exécution — « RAS » inclus</span>
+        </div>
+        <div id="runs-timeline" class="timeline">—</div>
+      </section>
+
+      <!-- Mentions -->
+      <section class="card">
+        <div class="card-head">
+          <h2>Mentions détectées</h2>
+          <span id="mentions-count" class="hint"></span>
+        </div>
+        <div class="filters" id="filters">
+          <label>Langue
+            <select id="f-lang"><option value="">Toutes</option><option value="en">EN</option><option value="pt">PT</option></select>
+          </label>
+          <label>Source
+            <select id="f-source"><option value="">Toutes</option><option value="owned">Owned</option><option value="earned">Earned</option></select>
+          </label>
+          <label>Plateforme
+            <select id="f-platform"><option value="">Toutes</option></select>
+          </label>
+          <label>Risque
+            <select id="f-risk"><option value="">Tous</option><option value="HIGH">HIGH</option><option value="MODERATE">MODERATE</option><option value="LOW">LOW</option></select>
+          </label>
+          <label class="chk"><input type="checkbox" id="f-new" /> Nouvelles seulement</label>
+          <input type="search" id="f-text" placeholder="Filtrer par texte…" />
+        </div>
+        <div id="mentions-list" class="mentions">—</div>
+      </section>
+
+      <!-- Veille manuelle Instagram / Facebook / X -->
+      <section class="card manual">
+        <div class="card-head">
+          <h2>Veille manuelle — Instagram · Facebook · X</h2>
+          <span class="hint warn">Non automatisable gratuitement — vérification humaine</span>
+        </div>
+        <p class="manual-note">
+          Ces plateformes n'offrent pas d'accès gratuit fiable pour un suivi automatique.
+          Ouvrez ces recherches à chaque revue (idéalement 2×/jour) pour couvrir les canaux
+          <em>owned</em> et <em>earned</em> Instagram des comptes ibis.
+        </p>
+        <div id="manual-links" class="manual-grid">—</div>
+      </section>
+
+      <footer class="foot">
+        <p>Veille gratuite — GitHub Actions (2×/jour) + GitHub Pages. Dernière génération :
+          <span id="foot-generated">—</span>.</p>
+        <p class="tiny">Classification par règles (indicative) ; la relecture du contenu réel reste la référence.</p>
+      </footer>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "ibis-veille-media",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Veille social media proactive — ibis Lisboa Centro Saldanha / colonie de chats. Collecte 2x/jour (GitHub Actions) + dashboard statique (GitHub Pages).",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "collect": "node src/collect.mjs",
+    "serve": "node --version >/dev/null 2>&1 && npx --yes serve docs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}

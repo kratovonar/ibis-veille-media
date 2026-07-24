@@ -1,0 +1,96 @@
+name: Veille ibis Saldanha
+
+# Collecte 2x/jour. Heures en UTC :
+#   08:00 UTC = 09h Lisboa (été / WEST) ou 08h (hiver / WET)
+#   16:00 UTC = 17h Lisboa (été / WEST) ou 16h (hiver / WET)
+on:
+  schedule:
+    - cron: '0 8 * * *'
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+    inputs:
+      inject_test:
+        description: 'Injecter une mention de TEST (déclenche une alerte de démonstration)'
+        type: boolean
+        default: false
+
+# Nécessaire pour committer les données et ouvrir/mettre à jour une Issue d'alerte.
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Collecte
+        id: collect
+        env:
+          VEILLE_INJECT_TEST: ${{ github.event.inputs.inject_test == 'true' && '1' || '0' }}
+        run: npm run collect
+
+      - name: Commit des données
+        run: |
+          git config user.name  "veille-bot"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Aucun changement de données."
+          else
+            git commit -m "veille: ${{ steps.collect.outputs.status }} — ${{ steps.collect.outputs.n_new }} nouvelle(s) [skip ci]"
+            git push
+          fi
+
+      - name: Alerte (Issue GitHub)
+        if: steps.collect.outputs.status == 'ALERT'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const latest = JSON.parse(fs.readFileSync('docs/data/latest.json', 'utf8'));
+            const items = (latest.alerting || []).slice(0, 25);
+            const lines = items.map(m =>
+              `- **[${m.risk}]** [${m.title}](${m.url}) — ${m.platform} · ${(m.language||'').toUpperCase()} · \`${m.keyword}\``
+            ).join('\n');
+            const body = [
+              `### ⚠︎ Veille ibis Saldanha — ${items.length} nouvelle(s) mention(s) à risque`,
+              ``,
+              `Généré le ${latest.generatedAt} (seuil d'alerte : ${latest.alertThreshold}).`,
+              ``,
+              lines || '_(aucun détail)_',
+              ``,
+              `Dashboard : voir GitHub Pages du dépôt. Ceci est une alerte automatique.`,
+            ].join('\n');
+
+            const title = `⚠︎ Alerte veille ibis Saldanha — ${new Date(latest.generatedAt).toISOString().slice(0,10)}`;
+            // Réutilise une Issue ouverte du même jour si elle existe, sinon en crée une.
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'veille-alerte',
+            });
+            const existing = open.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['veille-alerte'],
+              });
+            }
