@@ -22,6 +22,25 @@ export const KEYWORDS = [
   { term: 'colonia de gatos Lisboa', lang: 'pt', phrase: true },
   { term: 'Junta de Freguesia de Arroios', lang: 'pt', phrase: true },
   { term: 'Casa dos Animais de Lisboa', lang: 'pt', phrase: true },
+
+  // --- Termes de marque (larges — captent la marque Accor au sens global, plus bruités) ---
+  // Suivis dans les DEUX langues (localisation RSS pt-PT + en-US) pour couvrir
+  // la presse portugaise ET internationale.
+  { term: 'ibis', lang: 'pt', phrase: true },
+  { term: 'ibishotels', lang: 'pt', phrase: true },
+  { term: 'ibishotel', lang: 'pt', phrase: true },
+  { term: 'ibis hotel', lang: 'pt', phrase: true },
+  { term: 'hotel ibis', lang: 'pt', phrase: true },
+  { term: 'ibis styles', lang: 'pt', phrase: true },
+  { term: 'ibis budget', lang: 'pt', phrase: true },
+
+  { term: 'ibis', lang: 'en', phrase: true },
+  { term: 'ibishotels', lang: 'en', phrase: true },
+  { term: 'ibishotel', lang: 'en', phrase: true },
+  { term: 'ibis hotel', lang: 'en', phrase: true },
+  { term: 'hotel ibis', lang: 'en', phrase: true },
+  { term: 'ibis styles', lang: 'en', phrase: true },
+  { term: 'ibis budget', lang: 'en', phrase: true },
 ];
 
 // Hashtags (sans #) dérivés pour Mastodon (recherche par timeline de tag).

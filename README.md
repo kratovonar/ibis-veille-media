@@ -23,11 +23,13 @@ Quatre sources interrogées **automatiquement** à chaque passage, en **anglais 
 
 ### Mots-clés suivis (Google News, Bluesky, Reddit)
 
-Définis dans [`src/keywords.mjs`](src/keywords.mjs) — 15 expressions exactes, EN + PT (les deux termes « ibis » sont suivis dans les deux langues) :
+Définis dans [`src/keywords.mjs`](src/keywords.mjs) — expressions exactes, EN + PT (les deux termes « ibis … Saldanha » sont suivis dans les deux langues) :
 
 **Anglais** : `ibis Lisboa Centro Saldanha` · `ibis Lisboa Saldanha` · `Arroios cat colony` · `cat colony Lisbon` · `cat colony Saldanha` · `Arroios Parish Council` · `Lisbon Animal House`
 
 **Portugais** : `ibis Lisboa Centro Saldanha` · `ibis Lisboa Saldanha` · `colónia de gatos Arroios` · `colonia de gatos Arroios` · `colónia de gatos Saldanha` · `colonia de gatos Lisboa` · `Junta de Freguesia de Arroios` · `Casa dos Animais de Lisboa`
+
+**Termes de marque** (larges, plus bruités — captent la marque Accor au sens global ; suivis en **PT + EN**) : `ibis` · `ibishotels` · `ibishotel` · `ibis hotel` · `hotel ibis` · `ibis styles` · `ibis budget`
 
 ### Hashtags suivis (Mastodon)
 
