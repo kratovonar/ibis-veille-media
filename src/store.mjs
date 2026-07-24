@@ -13,17 +13,25 @@ const MENTIONS_CAP = 500; // liste roulante
 const RUNS_CAP = 200;
 const ALERT_THRESHOLD = 'HIGH'; // alerte uniquement sur les NOUVELLES mentions HIGH (= liées aux chats/animaux)
 
-// N'alerter que sur les mentions PUBLIÉES à partir de cette date (les vieux articles
-// simplement (ré)indexés ne déclenchent pas d'alerte). Surchargée par VEILLE_ALERT_SINCE.
-// Astuce : pour une fenêtre glissante, mettre une date calculée (ex. il y a 30 jours) via l'env.
-const ALERT_SINCE = process.env.VEILLE_ALERT_SINCE || '2026-07-20T00:00:00Z';
+// Fenêtre de récence des alertes : n'alerter que sur les mentions publiées dans les
+// N derniers jours (fenêtre GLISSANTE, recalculée à chaque passage). Défaut : 30 jours.
+// Surcharge : VEILLE_ALERT_WINDOW_DAYS (nombre de jours) ou VEILLE_ALERT_SINCE (date absolue ISO).
+const ALERT_WINDOW_DAYS = Number(process.env.VEILLE_ALERT_WINDOW_DAYS || 30);
+const ALERT_SINCE_ABS = process.env.VEILLE_ALERT_SINCE || null;
+
+// Calcule la date-plancher d'alerte pour ce passage (absolue si fournie, sinon now - N jours).
+function computeAlertSince(nowIso) {
+  if (ALERT_SINCE_ABS) return ALERT_SINCE_ABS;
+  const now = Date.parse(nowIso);
+  return new Date(now - ALERT_WINDOW_DAYS * 86400000).toISOString();
+}
 
 // Date effective d'une mention pour le test de récence : date de publication si connue,
 // sinon date de première détection (une mention tout juste captée est réputée récente).
-function isRecentEnough(m) {
+function isRecentEnough(m, alertSince) {
   const eff = m.publishedAt || m.firstSeenAt;
   if (!eff) return true; // aucune date : ne pas bloquer l'alerte
-  return eff >= ALERT_SINCE;
+  return eff >= alertSince;
 }
 
 const paths = {
@@ -106,8 +114,9 @@ export function reconcile({ state, mentions, collected, isFirstRun, nowIso }) {
   for (const m of allMentions) byRisk[m.risk] = (byRisk[m.risk] || 0) + 1;
 
   const threshold = RISK_ORDER[ALERT_THRESHOLD];
+  const alertSince = computeAlertSince(nowIso);
   const alerting = newMentions.filter(
-    (m) => RISK_ORDER[m.risk] >= threshold && isRecentEnough(m)
+    (m) => RISK_ORDER[m.risk] >= threshold && isRecentEnough(m, alertSince)
   );
   const status = alerting.length > 0 ? 'ALERT' : 'RAS';
 
@@ -118,6 +127,8 @@ export function reconcile({ state, mentions, collected, isFirstRun, nowIso }) {
     allMentions,
     status,
     byRisk,
+    alertSince,
+    alertWindowDays: ALERT_SINCE_ABS ? null : ALERT_WINDOW_DAYS,
     nNew: newMentions.length,
     nTotal: allMentions.length,
   };
@@ -133,4 +144,4 @@ export async function persist({ known, allMentions, runs, run, latest }) {
   ]);
 }
 
-export { ALERT_THRESHOLD, ALERT_SINCE };
+export { ALERT_THRESHOLD, ALERT_WINDOW_DAYS };

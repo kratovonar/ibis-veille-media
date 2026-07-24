@@ -66,12 +66,16 @@ seul le croisement **chats × (risque ou hôtel)** déclenche une alerte.
 
 ### Fenêtre de récence des alertes
 
-Seules les mentions **publiées à partir du 20/07/2026** peuvent déclencher une alerte (les vieux
-articles simplement (ré)indexés sont ignorés côté alerte, mais restent visibles dans la table).
-Réglage : `ALERT_SINCE` dans [`src/store.mjs`](src/store.mjs), surchargeable par la variable
-d'environnement `VEILLE_ALERT_SINCE`. Une mention sans date de publication est réputée récente
-(elle vient d'être captée). Pour une **fenêtre glissante** (ex. 30 derniers jours), passer une date
-calculée via `VEILLE_ALERT_SINCE`.
+Seules les mentions **publiées dans les 30 derniers jours** peuvent déclencher une alerte — une
+**fenêtre glissante** recalculée à chaque passage (les vieux articles simplement (ré)indexés sont
+ignorés côté alerte, mais restent visibles dans la table). La date-plancher effective est affichée
+sur le dashboard (« Alertes (30 j glissants) »).
+
+Réglages dans [`src/store.mjs`](src/store.mjs) :
+- `ALERT_WINDOW_DAYS` (défaut **30**) — surchargeable par `VEILLE_ALERT_WINDOW_DAYS`.
+- `VEILLE_ALERT_SINCE` — pour figer une **date absolue** (prend le pas sur la fenêtre glissante).
+
+Une mention sans date de publication est réputée récente (elle vient d'être captée).
 5. Écriture de `latest.json`, `runs.json`, `mentions.json`, `state.json` → commit & push.
 6. Si `ALERT` : le workflow ouvre/actualise une Issue `veille-alerte`.
 

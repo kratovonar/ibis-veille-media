@@ -64,7 +64,8 @@ function renderHero() {
     ['Nouvelles ce run', String(c.new ?? 0)],
     ['Mentions suivies', String(c.total ?? 0)],
     ['Risque HIGH / MOD', `${r.HIGH ?? 0} / ${r.MODERATE ?? 0}`],
-    ['Alertes depuis', l.alertSince ? fmtDate(l.alertSince) : '—'],
+    [l.alertWindowDays ? `Alertes (${l.alertWindowDays} j glissants)` : 'Alertes depuis',
+      l.alertSince ? fmtDate(l.alertSince) : '—'],
   ];
   for (const [k, v] of metrics) {
     const m = el('div', 'metric');
