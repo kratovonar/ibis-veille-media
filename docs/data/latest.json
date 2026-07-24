@@ -1,19 +1,74 @@
 {
-  "generatedAt": "2026-07-24T13:04:35.226Z",
+  "generatedAt": "2026-07-24T16:52:39.010Z",
   "status": "RAS",
-  "isBaseline": true,
+  "isBaseline": false,
   "alertThreshold": "MODERATE",
-  "nextRun": "2026-07-24T16:00:00.000Z",
+  "nextRun": "2026-07-25T08:00:00.000Z",
   "counts": {
-    "total": 231,
-    "new": 0,
+    "total": 234,
+    "new": 3,
     "byRisk": {
       "HIGH": 11,
       "MODERATE": 13,
-      "LOW": 207
+      "LOW": 210
     }
   },
-  "newMentions": [],
+  "newMentions": [
+    {
+      "source": "google_news",
+      "platform": "news",
+      "language": "pt",
+      "keyword": "Junta de Freguesia de Arroios",
+      "title": "Piscina de Arroios encerrada por tempo indefinido devido a problemas de segurança",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeWZPc2RZR3ZjbWJKZWQwZDhVX2F2V2xIZko2QlNsU3BuTnhERzkxX0FVN2FrUDB1ZmdYYWtFTjVlWElHbWg2SWVuamwzS3N6VUZNbXpjWk85OGMtV29nSzVvc3BlQlBKcWhrSDQyUFAwS1VxMFVtWDAwLXZITUdaV0s0OXljX0pBX0ZqZVBQY3h2Mzd4U2ZlMkRNZFNLTlkyZXBFU3NaS3BqY2ZNSkU1bmhMSTIxUGpKS1RLS3dXR2JJdjhkU1HSAcsBQVVfeXFMTjRZVm9RN3BUcEdfMTFTU2h1MkJuY1B3dC1aWjRsZ0NrQU9tNzY1R2JPQmhHSW1rak9RNVJtOS1RR3doS2RRTnF4Sjc5d3NHS2VZeG9CeE1hODc2a2NiYUxqeWxIMEtOTmZhQnA5T0FtUlp4cU8zNGRvMTRDcldfd2hpck1wU29pOTZTQWpDMmpWaW5taEpaTGI1N3VZTGlNRUJIUnp6UXZqZ1NSMHRmWDVLb2UwR0o2Ui1vQkwtbHY1OTNfSzVrQ3plejg?oc=5",
+      "snippet": "Piscina de Arroios encerrada por tempo indefinido devido a problemas de segurança Renascença",
+      "author": "Renascença",
+      "publishedAt": "2022-08-22T07:00:00.000Z",
+      "id": "cc0a1ba6cc5e96f1",
+      "sourceType": "earned",
+      "sentiment": "neutre",
+      "risk": "LOW",
+      "firstSeenAt": "2026-07-24T16:52:39.010Z",
+      "isNew": true,
+      "baseline": false
+    },
+    {
+      "source": "google_news",
+      "platform": "news",
+      "language": "pt",
+      "keyword": "Junta de Freguesia de Arroios",
+      "title": "Não podes ir ao supermercado ou à farmácia? As Juntas de Freguesia vão por ti",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb3IyVHFHNFRqUlJJR0swdmxQTjhRNlVQaE1QRDBiblRYX1N4WmNkdkN1a24xalJsWnpTcktDT2c5SzBfbWdiMHEzbU1jNzF1Q2xRRk9TUUZqVF9kRmt6Sm1obUFmTkRUQUhQd2ZMa0RGLUpNQm1YN0lpU3VtN1BZNVJISWxValAxcEs1NElyVWJiZThPLXhtUUJqZF9HdlJXUVhESA?oc=5",
+      "snippet": "Não podes ir ao supermercado ou à farmácia? As Juntas de Freguesia vão por ti Lisboa Secreta",
+      "author": "Lisboa Secreta",
+      "publishedAt": "2020-03-31T07:00:00.000Z",
+      "id": "f5b45d553ed757f0",
+      "sourceType": "earned",
+      "sentiment": "neutre",
+      "risk": "LOW",
+      "firstSeenAt": "2026-07-24T16:52:39.010Z",
+      "isNew": true,
+      "baseline": false
+    },
+    {
+      "source": "google_news",
+      "platform": "news",
+      "language": "pt",
+      "keyword": "Casa dos Animais de Lisboa",
+      "title": "Word Spay Day Portugal: Representantes da medicina veterinária defendem a esterilização obrigatória de animais de companhia",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IZEdvVEtFWjVhM3JlaUYzMFFRYy1lV19hdU14dDUxQjZwY29BcG94b0ktYi0yLW9UU1k3Q0hhQjd2ZUV5TEltbHQ2VlhvVVNPN0EwUVBJV2w3QjNqSUJ2ZEM2RENnMnZjWDZjdnBVdUJLVTg5ek5zbE9zNA?oc=5",
+      "snippet": "Word Spay Day Portugal: Representantes da medicina veterinária defendem a esterilização obrigatória de animais de companhia Veterinaria Atual",
+      "author": "Veterinaria Atual",
+      "publishedAt": "2026-07-24T13:00:49.000Z",
+      "id": "95a44850a7566125",
+      "sourceType": "earned",
+      "sentiment": "neutre",
+      "risk": "LOW",
+      "firstSeenAt": "2026-07-24T16:52:39.010Z",
+      "isNew": true,
+      "baseline": false
+    }
+  ],
   "alerting": [],
   "manualWatch": [
     {
