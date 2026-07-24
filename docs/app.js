@@ -24,10 +24,6 @@ function fmtDate(iso) {
   });
   return `${s} UTC`;
 }
-function fmtDay(iso) {
-  const d = new Date(iso);
-  return isNaN(d) ? '—' : d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', timeZone: 'UTC' });
-}
 
 async function loadJson(name, fallback) {
   try {
@@ -173,8 +169,8 @@ function renderMentions() {
     const foot = el('div', 'm-foot');
     foot.append(el('span', null, `🔎 ${m.keyword}`));
     if (m.author) foot.append(el('span', null, `✍︎ ${m.author}`));
-    foot.append(el('span', null, `📅 ${m.publishedAt ? fmtDay(m.publishedAt) : 'date inconnue'}`));
-    foot.append(el('span', null, `👁 vue le ${fmtDay(m.firstSeenAt)}`));
+    foot.append(el('span', null, `📅 publié : ${m.publishedAt ? fmtDate(m.publishedAt) : 'date inconnue'}`));
+    foot.append(el('span', null, `👁 capté : ${fmtDate(m.firstSeenAt)}`));
     card.append(foot);
     list.append(card);
   }
