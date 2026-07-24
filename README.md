@@ -9,15 +9,35 @@ Surveillance EN + PT, canaux *owned* et *earned*, **2×/jour**, avec **dashboard
 - **Dashboard** : site statique dans `docs/`, servi par **GitHub Pages**.
 - **Alerte** : bandeau sur le dashboard **+** création/mise à jour automatique d'une **Issue GitHub** (= e-mail) dès qu'une *nouvelle* mention atteint le seuil de risque.
 
-## Sources
+## Sources captées
 
-| Source | Automatisé | Notes |
-|---|---|---|
-| Google News RSS (EN + PT) | ✅ | Presse / blogs indexés, sans clé. Source principale. |
-| Reddit | ⚠️ best-effort | Recherche publique `.json`. Reddit bloque souvent les IP de datacenter (dont les runners GitHub Actions) → peut ne rien remonter. Dégradation propre (0 mention, pas d'erreur). |
-| Bluesky | ✅ | API publique `searchPosts` (fonctionne depuis un réseau standard). |
-| Mastodon | ✅ (best-effort) | Timelines de hashtags publiques (pas de recherche plein-texte sans auth). |
-| **Instagram / Facebook / X** | ❌ | **Pas d'accès gratuit fiable.** Traités via le **panneau de veille manuelle** du dashboard (liens de recherche directs) + ce qui remonte en *earned* via l'actualité. |
+Quatre sources interrogées **automatiquement** à chaque passage, en **anglais et portugais**, pour couvrir *owned* et *earned* :
+
+| Source | Ce qui est capté | Statut | Détail technique |
+|---|---|---|---|
+| **Google News RSS** | Presse, blogs et sites d'actualité **indexés** (EN + PT). Source principale / la plus riche. | ✅ fiable | `news.google.com/rss/search`, 1 requête par mot-clé, localisée `hl=en-US` et `hl=pt-PT`. Sans clé. |
+| **Bluesky** | Posts publics du réseau Bluesky mentionnant les mots-clés. | ✅ fiable | API publique `app.bsky.feed.searchPosts`. Sans auth. |
+| **Mastodon** | Pouets publics portant les **hashtags** suivis (activisme, communautés locales). | ⚠️ best-effort | Timelines de tags publiques sur `mastodon.social`, `mas.to`, `mastodon.online`. Pas de recherche plein-texte sans compte → couverture par hashtags. |
+| **Reddit** | Fils/discussions publics mentionnant les mots-clés. | ⚠️ best-effort | Recherche `.json`. Reddit bloque souvent les IP de datacenter (runners GitHub Actions) → peut ne rien remonter certains jours. Dégradation propre (0 mention, aucune erreur). |
+| **Instagram / Facebook / X (Twitter)** | — | ❌ non automatisé | **Aucun accès gratuit fiable** (X a fermé son API gratuite ; Meta exige la Graph API + la propriété des comptes). Traités via le **panneau de veille manuelle** du dashboard (liens de recherche directs) + ce qui remonte en *earned* via l'actualité indexée. |
+
+### Mots-clés suivis (Google News, Bluesky, Reddit)
+
+Définis dans [`src/keywords.mjs`](src/keywords.mjs) — 15 expressions exactes, EN + PT (les deux termes « ibis » sont suivis dans les deux langues) :
+
+**Anglais** : `ibis Lisboa Centro Saldanha` · `ibis Lisboa Saldanha` · `Arroios cat colony` · `cat colony Lisbon` · `cat colony Saldanha` · `Arroios Parish Council` · `Lisbon Animal House`
+
+**Portugais** : `ibis Lisboa Centro Saldanha` · `ibis Lisboa Saldanha` · `colónia de gatos Arroios` · `colonia de gatos Arroios` · `colónia de gatos Saldanha` · `colonia de gatos Lisboa` · `Junta de Freguesia de Arroios` · `Casa dos Animais de Lisboa`
+
+### Hashtags suivis (Mastodon)
+
+`#ibisLisboa` · `#ibisSaldanha` · `#Saldanha` · `#Arroios` · `#gatosdeLisboa` · `#coloniadegatos` · `#colóniadegatos` · `#CasadosAnimaisdeLisboa` · `#animaisLisboa`
+
+### Recherches du panneau manuel (Instagram / Facebook / X)
+
+Liens générés sur le dashboard pour : `ibis Lisboa Centro Saldanha` · `colónia de gatos Arroios` · `colónia de gatos Saldanha` · `Casa dos Animais de Lisboa`.
+
+> Pour élargir ou affiner la veille, il suffit d'éditer les listes dans [`src/keywords.mjs`](src/keywords.mjs).
 
 ## Fonctionnement
 
@@ -69,9 +89,19 @@ VEILLE_INJECT_TEST=1 npm run collect
 
 ## Planification & fuseau
 
-Cron `0 8 * * *` et `0 16 * * *` (**UTC**). Lisbonne :
-- **Été (WEST, UTC+1)** → **09h / 17h** locales.
-- **Hiver (WET, UTC+0)** → **08h / 16h** locales.
+Cron `17 8 * * *` et `17 16 * * *` (**UTC**) — minutes décalées à `:17` volontairement,
+car GitHub abandonne fréquemment les runs planifiés à l'heure pile (`:00`) en cas de charge.
+
+Équivalent à Lisbonne :
+- **Été (WEST, UTC+1)** → **09h17 / 17h17** locales.
+- **Hiver (WET, UTC+0)** → **08h17 / 16h17** locales.
+
+> **Affichage** : le dashboard affiche tous les horodatages en **UTC** (suffixe « UTC »),
+> aligné sur le déclenchement du cron — pas d'ambiguïté de fuseau.
+
+> **Note fiabilité** : le planificateur GitHub Actions est *best-effort* — un passage peut être
+> retardé de quelques minutes, voire (rarement) sauté. Le passage suivant rattrape. Pour un
+> déclenchement garanti à l'heure, on peut ajouter un pinger externe gratuit (voir *Évolutions*).
 
 Pour changer les heures, éditer les `cron:` dans `.github/workflows/veille.yml`.
 
@@ -85,4 +115,6 @@ Pour changer les heures, éditer les `cron:` dans `.github/workflows/veille.yml`
 
 ### Évolutions possibles
 LLM gratuit pour affiner la classification · connecteur Slack/e-mail dédié · API Instagram Graph
-(si les comptes ibis concernés sont détenus/gérés) · élargissement des mots-clés et hashtags.
+(si les comptes ibis concernés sont détenus/gérés) · élargissement des mots-clés et hashtags ·
+**pinger externe gratuit** (ex. cron-job.org + Personal Access Token) appelant l'API
+`workflow_dispatch` pour un déclenchement garanti à l'heure, indépendant du planificateur GitHub.
