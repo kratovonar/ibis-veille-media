@@ -3,6 +3,114 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
+    "keyword": "Junta de Freguesia de Arroios",
+    "title": "Antigos autarcas de junta lisboeta acusados de desviar mais de 316 mil euros",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcVRWcXdyV0ZNeVNCWTR4NEwyQlhJZk9fRkltWEZ2VHR4UWhtYTQxUnZIUHJYcTItQ0QyWnk1Mlc3ZV9lcjlCWERCM0tQdnRpeHZiWHIzSnJ1N3hfV2dsQjVERFdzWHBKczYwU045UWJnWTJUVjlBemtRNkEzTk9pZkJFeFo2MzFMOWVQcmlQRDJvWFBlREpuWWR6NVBPdHhPd2h0OGdfTGpMcXc5ckxxZ2MwY0VoRE8zY194VnVjSG0yeDQ4MlpsZE9IU08?oc=5",
+    "snippet": "Antigos autarcas de junta lisboeta acusados de desviar mais de 316 mil euros Público",
+    "author": "Público",
+    "publishedAt": "2017-02-28T08:00:00.000Z",
+    "id": "72cbb3124ed1293a",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-07-26T17:19:02.580Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
+    "keyword": "ibis",
+    "title": "Classificação, Jogos e Placares do Ibis SC PE",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1US1WNHdTeU9ZMVZiQTFGLW5SZGFvZG5OTXAwY0hvaXpSZnpMUjloWkwzcnE2RGlxeGtzLXVMNTRlVHd3WFVNM25GWDBQOFNvdXJ6M1N1UnVlZEd4TmxLUDFn?oc=5",
+    "snippet": "Classificação, Jogos e Placares do Ibis SC PE Futbol24",
+    "author": "Futbol24",
+    "publishedAt": "2026-05-19T12:59:09.000Z",
+    "id": "06d9e533a429d7ea",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-07-26T17:19:02.580Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
+    "keyword": "hotel ibis",
+    "title": "Ibis indenizará hóspede que teve bagagem furtada durante check-out",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc01KU1dDb3BYa081cW1NLUlnWWFtblpkRVJ5MmJkVjZHeVdnMENmM2xYTFJ0VEJ6T3JoN0RKbFEyWVhnc3g4ZEI1bU5meXFoeGZHcUl1cTg1ZGxZZ3VxeGZvNlhaZk4zX2p1X0F4NUdORHBSMGNKUk9MOVlxVUJwaGtZd0xkc0picW5PSURCeW45M1lRa3phQkhaeDdIYVRMQ2N3Y2lFVVNsTFpQVUE?oc=5",
+    "snippet": "Ibis indenizará hóspede que teve bagagem furtada durante check-out Migalhas",
+    "author": "Migalhas",
+    "publishedAt": "2025-04-01T07:00:00.000Z",
+    "id": "5fa8b7d0b5b7a49f",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-07-26T17:19:02.580Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis",
+    "title": "World Premiere: First Prototype Vehicle Featuring Breakthrough Intelligent Battery Integrated System Begins Real-World Testing",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTUVNdjN2YXNENS1uLUpBelNUSndDVzZqbXZRUlZNRFNYNzJyM2RNZHFoRFhwYzlaOWJ0REJxN0RGTVRvbDBTX3ZSNGRycFVhdk5hQTVDejBOcXdNQm1kZGx6NmctUUxxTGQtOHlrNzVpaF8tTXlJeExBNDlEcm9vOF8yUTh0M3RxdDVYWE9lN0JPdXRxRUxqS0xlM1BCY0VWMXFfbDMyMnk3bGdYWlJlcDlJRWNfR2V3SU9uUkdYSFgzeGY5aDYxczk1SUJTeWh5MmxaNGd2akZiRUo5SlZEZnYxQUcydGRFSjZqVDloTW1VN0dRT1NOM1JjRnpsRFV6YkluU214bjZrXzRO?oc=5",
+    "snippet": "World Premiere: First Prototype Vehicle Featuring Breakthrough Intelligent Battery Integrated System Begins Real-World Testing Stellantis Media",
+    "author": "Stellantis Media",
+    "publishedAt": "2025-09-19T07:00:00.000Z",
+    "id": "4af816739a0d2b7a",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-07-26T17:19:02.580Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis hotel",
+    "title": "Freehold of Hull hotel hits the market",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11dzRhaU0wblVaMkZTUmotOWlHMHRRZEFBbnE3SktjSnVmX1hDZ085SUtXcGlLUTd4TGFBZEVPQzByVm5rZUVFbVozaGYtUDdPNUV6VzJrR0JlaV91UnRzY0R1OENrRUpCeVREWQ?oc=5",
+    "snippet": "Freehold of Hull hotel hits the market BE News",
+    "author": "BE News",
+    "publishedAt": "2026-01-06T08:00:00.000Z",
+    "id": "fabc4570478af164",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-07-26T17:19:02.580Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis budget",
+    "title": "First ibis budget hotel scheduled for July",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44Q0hjeUVwUTJFVFd5R1RvSHlfWW03cV9tRVpVN3BSVlJYbXhCcmhvVVRZMGpSNEw0QTJqMXdZTXFEOG5oRmpuZmR0TDgtVlg0bHJ1OXpmZExwYUVNVUJNY3VadUhaaVZKLTJhRGE0WktxVFExRHo0VC1uN0JDbXc?oc=5",
+    "snippet": "First ibis budget hotel scheduled for July Phnom Penh Post",
+    "author": "Phnom Penh Post",
+    "publishedAt": "2022-02-28T08:00:00.000Z",
+    "id": "d60574bad3d5a2fc",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-07-26T17:19:02.580Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
     "keyword": "ibis Lisboa Centro Saldanha",
     "title": "Programa HEART da AHP já apoiou 225 IPSS e poupou 7,6 milhões de euros à economia social",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWFwQlRUSEdRWTZKaXNkME9kLVpJN1dIRmVsMGRnMHNZdy1hU0ZOdEJEdm9Vc3l2WG15OXhlc3lqTVFqb1NhTV9qWlhLa3Jid0hNMjZEYmhIcUJWUy1aeFlCcTJ1UDZiRGhBU0J5cmdFU1NEWWtqSXl5UFVZRmVTa29TQzZHam93RzVFQVRNMWhuMlVmbXVNU0Q5YTIyM0NIbUNrekdZa3A?oc=5",
@@ -14,7 +122,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +140,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +158,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +176,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +194,7 @@
     "sentiment": "négatif",
     "risk": "MODERATE",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +212,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +230,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +248,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -158,7 +266,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -176,7 +284,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -194,7 +302,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -212,7 +320,7 @@
     "sentiment": "positif",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -230,7 +338,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -248,7 +356,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -266,7 +374,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -284,7 +392,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -302,7 +410,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -320,7 +428,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -338,7 +446,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -356,7 +464,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -374,7 +482,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -392,7 +500,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -410,7 +518,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -428,7 +536,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -446,7 +554,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -464,7 +572,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -482,7 +590,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -500,7 +608,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -518,7 +626,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -536,7 +644,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -554,7 +662,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -572,7 +680,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -590,7 +698,7 @@
     "sentiment": "positif",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -608,7 +716,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -626,7 +734,7 @@
     "sentiment": "positif",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -644,7 +752,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -662,7 +770,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -680,7 +788,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -698,7 +806,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -716,7 +824,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -734,7 +842,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -752,7 +860,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -770,7 +878,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -788,7 +896,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -806,7 +914,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -824,7 +932,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-07-26T10:11:50.232Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -3156,8 +3264,8 @@
     "keyword": "ibis",
     "title": "Íbis, 87 anos: do New York Times ao mascote Derrotinha, veja 15 fatos sobre o \"pior time do mundo\"",
     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNUg2aVZMX3RsVThzOFp5UDB2QTIzZHJpTG1tbVNpSXNUM1RsWkZpNzVlQU9mVG8zWXpHMDhzc3lGZTRIZ19waXhTTkxUb1lTZFd3NW9HbTMyR1R0Sl91QVJvcktqYWNHNldRSGZPa1hyWW50VWkzbTFCcTZCaWNUVWVwVjVWUUR0TkoxQmx2bDR2WnJadWh5RW5JbV9IdURVZE5GZVVVSVB1N2J4VF9EM2ZCeW16RXhURVE4ZjVzZTJNejFoUktmQ1U0bHhjZzF0cldJLWp1YVNKSGdpVlZZbnVqUTh4Z2xHMWU5VjlTZWVydFHSAYICQVVfeXFMTjNzai1yUnNhZ0pubGlvbDlUNVhTbDdUNkE2emJTeE1xU0RCNElfUkVQazY1MVg1VTRyeXFFWlpPdkdhVXotMXQ0QXFQWjB6RkpWbHM2ek10c1kySWFMMkRjRDFuVVhaQWpoMXdONTBXWEpNTHVDdVlLLXlLOFNIVVEzQkFTVXRkMFdtZmxzTTczRDRvcndZbEo0U3l1WC1jejZyTE02dDlRUXpEbVdRVzZ2MUVacUhYOS1LNlJ4VkN4QkFXU1ppdEc3dEJLaUNsWUgweXRKa2hoRlZrZml0SnJyUi1Cc1hlWXJ5NmpHU1BndnRORGV2MHdkY0oweW1PUW1R?oc=5",
-    "snippet": "Íbis, 87 anos: do New York Times ao mascote Derrotinha, veja 15 fatos sobre o \"pior time do mundo\" GE",
-    "author": "GE",
+    "snippet": "Íbis, 87 anos: do New York Times ao mascote Derrotinha, veja 15 fatos sobre o \"pior time do mundo\" ge",
+    "author": "ge",
     "publishedAt": "2025-11-14T08:00:00.000Z",
     "id": "9d03c86ff237f19d",
     "sourceType": "earned",
@@ -4107,7 +4215,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
-    "keyword": "ibis hotel",
+    "keyword": "ibis",
     "title": "Prefeitura e SINHORES promovem curso gratuito sobre exposição de alimentos",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0I0UzB4eXptYVI0SzQ5enFxSU9HaDlIRzEza1ZzYUhxOUVpeVBadHJaMkVPU0h0d2hqbUNNN1ZOUjMzTnU1dUpiYnVqd0ZDVmpXVW9OT1pmMHZFREJZX1BEZ1QtNlNvVzlaaVZ2WndSQ3RqTUV6ZnY0SGctMDBVUVVOMTJ1LWxoSVgtem9aekdxZnpaeXJrQnl3TFV3bERvQ2owUnZGQVQyd1otR09CU29meHBfdEk?oc=5",
     "snippet": "Prefeitura e SINHORES promovem curso gratuito sobre exposição de alimentos Prefeitura Municipal de Jacareí",
@@ -4812,8 +4920,8 @@
     "keyword": "ibis hotel",
     "title": "FOLHA DO SUL confirma com exclusividade: uma das maiores redes de hotéis do mundo vai construir unidade do Ibis em Vilhena",
     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOSFh5YlYwbkpZWVhrdTB0Wnh5TWVhWkpVSzR4TTRGYURmak1pZXJ1TmNwaG5PYnpsa3FZUUhTemd0Y3pxbERncXdDM2ZnWTk3cl9OWlFVODJqNDJHME9xM0NCU204bFhJeDJRUXExaWtydjVYYUtxb0QzSUJtVklKbUZDVWRzeVRsMEFUX1lZZW9QVkdaZDBqM3djNTlJZHBzWVhHSWQ2Z1VKa1FURE1WNHBGVlhJcW5CczVkOW5JbVdubVVOWWpTcW0wNWZvYS04SGxwZ0NZTVJKQ1lSZTVSMmlQbF8wMUg0XzYxYUVnS0ZLMkRQS2V6VGxSS2t5dW5tYUE?oc=5",
-    "snippet": "FOLHA DO SUL confirma com exclusividade: uma das maiores redes de hotéis do mundo vai construir unidade do Ibis em Vilhena .: FOLHA DO SUL ONLINE :.",
-    "author": ".: FOLHA DO SUL ONLINE :.",
+    "snippet": "FOLHA DO SUL confirma com exclusividade: uma das maiores redes de hotéis do mundo vai construir unidade do Ibis em Vilhena folhadosulonline.com.br",
+    "author": "folhadosulonline.com.br",
     "publishedAt": "2024-03-14T07:00:00.000Z",
     "id": "251255ed7fe6f9b2",
     "sourceType": "earned",
@@ -5890,10 +5998,10 @@
     "platform": "news",
     "language": "pt",
     "keyword": "hotel ibis",
-    "title": "Prédio em construção desaba em Lucas do Rio Verde; bombeiros atuam no local; vídeo",
+    "title": "Prédio em construção desaba em Lucas do Rio Verde; bombeiros atuam no local; vídeo - HiperNotícias",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT3hoaFdQZk0zTkp0UDAxOFZDQV9fOGJMRS1VQlRGNW0xSG1INm1EdU5kVzJyRGxPeUk4RjhpdlU1RXE3VktfYm9OUjVxVVY2V3AwM0VwcHdGbmM0MlRnc2ZIY0ZxVmdNeGlwNDFaZnFseXowSG5mMlJORTY1NklBR08xa1FxcFBZcmhMc3VKdnpMT1g2ZG1BZ0ROUVF6bm1DcHdtRng1OE1qcFJkeDJmVGNiNEtaV1JaeWc?oc=5",
-    "snippet": "Prédio em construção desaba em Lucas do Rio Verde; bombeiros atuam no local; vídeo hnt.com.br",
-    "author": "hnt.com.br",
+    "snippet": "Prédio em construção desaba em Lucas do Rio Verde; bombeiros atuam no local; vídeo HiperNotícias - Você bem informado",
+    "author": "Você bem informado",
     "publishedAt": "2026-01-17T08:00:00.000Z",
     "id": "1dc39bb37212b10d",
     "sourceType": "earned",
@@ -6033,7 +6141,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
-    "keyword": "hotel ibis",
+    "keyword": "ibis styles",
     "title": "ibis Styles Bonito: primeiro hotel internacional em Bonito (MS)",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORjZQaU05eUE5M2VhSWdjZWJwbWw2aGwyWDA1QVVGaHN4LVRlalpTWXFXemI5YmtKTmFTSU14d05fQ183N1dBaGZqczRHRnRTZ3lhaFpTRTJEX3dURGc1aEhLS3E4YUFDY3poVElQRGRINW9PbWhoUUtSdjNDb0hTdHBDT2x2UGthdTdlRWMzMnM0OXhxOUpJ?oc=5",
     "snippet": "ibis Styles Bonito: primeiro hotel internacional em Bonito (MS) Diário do Turismo",
@@ -6105,7 +6213,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
-    "keyword": "ibis styles",
+    "keyword": "hotel ibis",
     "title": "Hotéis Ibis, Mercure e Novotel em promoção! Diárias a partir de apenas R$ 100, em até 6x sem juros",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZk9mZVBnWXV5cVQteDlvZGRZallieXl5ejFiOURYWVh1TFNUMGUyaEJ0RDAwQ2U5V0tYZXhzbzdzc2E2MC1tOUdmc0xnZUdEaVROMm9tdnJsQzAwTmlVZVJzTUNqWlMxRTZqTC1MRUl1RjJwNmdlend2SUVCVFVsRjhLSGxuTWZWTWR2YWg3Unh2RVBKNWtCYkpSVEw1TzRnS25pVlM0bTMyVHJTQ05KY0NrUEZ1UHY5OTJYSFRjS24wbVViOTNNMTY5TQ?oc=5",
     "snippet": "Hotéis Ibis, Mercure e Novotel em promoção! Diárias a partir de apenas R$ 100, em até 6x sem juros Melhores Destinos",
@@ -6375,7 +6483,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
-    "keyword": "hotel ibis",
+    "keyword": "ibis styles",
     "title": "ibis Styles Lisboa Centro Liberdade com nova imagem e conceito inspirado no mar",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNclVWMGpnS2tlUGNLTjNYYTMtbFJTTkkzM1RiaXdvOGRrUlB5ZzI1cEVKTFRkQk5peW1ucnp0NDg2Tl84T1dHQUlGNl84TkNMd0NxekhZd1VzQ3JVRWdrLVRUZjA1S1RCOEJ4SXJaVmRzTEV3YkZza0hhempHbXZSeTVSTXBOUGl6WTRuLWROdEo4XzVZODBaQlp1RktJZw?oc=5",
     "snippet": "ibis Styles Lisboa Centro Liberdade com nova imagem e conceito inspirado no mar tnews.pt",
@@ -7622,7 +7730,7 @@
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3BmOGxpTExBUk4tTzdjb242OHc3TVpaSFV0b0hKaTRuM2F1M2VWenRwa3EyMVhFRVlKVzNuMVRLNHROc3NSR0N0Z2VwYVRqWmphc3VOVXZpYzY3WExOaDJNOXM1SWZPQ0JCQWRXMUl4ZkRSb29feG54V3NHaF94NlJnRHhhZG5yX3FadGVaWQ?oc=5",
     "snippet": "Hotéis no Rio de Janeiro com até 30% OFF! Diárias nos Ibis, Mercure e Novotel a partir de R$ 165 Melhores Destinos",
     "author": "Melhores Destinos",
-    "publishedAt": "2025-08-15T07:00:00.000Z",
+    "publishedAt": "2025-08-15T20:07:51.000Z",
     "id": "807ab58b8a3aa9e3",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -8884,114 +8992,6 @@
     "author": "Realtor.com",
     "publishedAt": "2026-07-12T23:33:16.000Z",
     "id": "484fb639c88fcdab",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-07-24T17:48:47.392Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Dr. Justin Haynes earns prestigious literary prizes for debut novel ‘Ibis’",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOellnR2pBZjlVS0ZiTHo2eDJrUW1JVGdWRTV1aTNVSFUxbEM2Xy01Z3ZuWWdBQWx5QlJEdnlQczFLejhQdjVQb0VzTEFCSVg3Y0dMTDhTZzgtdzZQc0dvT0NjNnoybWdielJfaThhNk9vcTBOZGRBWFJEQnBBckZ6ajYxRUFXeUlaUnV5WWF3eEpISUlGRS1mcm8zdXdrZ2pRNVE?oc=5",
-    "snippet": "Dr. Justin Haynes earns prestigious literary prizes for debut novel ‘Ibis’ Oglethorpe University",
-    "author": "Oglethorpe University",
-    "publishedAt": "2026-04-23T07:00:00.000Z",
-    "id": "4362702a21939cf4",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-07-24T17:48:47.392Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "ibis Hyderabad HITEC City appoints Rajesh Dudi as Director of Sales",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZHRuUG82M01rTkNpMlh2X3poX3NBXzJKUFg1SEx4U3QwYXJhbzBqc0lhbkIxQzZ6cVY0Z3IwaHpRTm5PWVIyeXNGaEk1Ry1wRUVhQjBRclZycExNNDJlS0JlYW1qTGUzUG8zcjY0WkVwci15aUxIU1BXczNyUkxDcUFsNGZ5TndOMEp0UnRHcW4wWVpyQmxKMURORmc?oc=5",
-    "snippet": "ibis Hyderabad HITEC City appoints Rajesh Dudi as Director of Sales MediaNews4U",
-    "author": "MediaNews4U",
-    "publishedAt": "2026-07-23T08:33:26.000Z",
-    "id": "5addb1928d327882",
-    "sourceType": "earned",
-    "sentiment": "négatif",
-    "risk": "LOW",
-    "firstSeenAt": "2026-07-24T17:48:47.392Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Populations of 19 nationally protected bird species, including crested ibis, remain stable or continue to grow",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rRUpvYWE0R1EtRHZvdzBXREpiR2VBNXJPVk9iMk11TkxEVURjYW12MW1OdlJTTFJBaXZFTFd1b3V4ZFp4ZUVqUTF2aUI2Vy0xMEhZRXIxRVRRTFoxMC1pdXVB?oc=5",
-    "snippet": "Populations of 19 nationally protected bird species, including crested ibis, remain stable or continue to grow Global Times",
-    "author": "Global Times",
-    "publishedAt": "2026-07-09T07:00:00.000Z",
-    "id": "c0b5bb1339249282",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-07-24T17:48:47.392Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Accor and Trust Contracting and Real Estate Investment Company sign ibis North Coast Sidi Kerir",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeE9YbmdpUTZuczdMMXIwdW05eW5TWmtBSy1HTmVfdWZST3NjZDFIZUtUZ3F6UWh1Q05Lck9tQ2wtaTZXTkd2S0d4cFVDVlI1bjhWdHhPVDl0NTZDV01uMllTdVJac0pNNjBwTFFXdzh5RjZxMFotZEJUbF9HUVdVdC1hbDJma1RrUF9CX1BuRlRkNXdibUdzUERPNlB0VE9Pd0xlVDRhREl1bkdKM2lXb1U1a3NEY1BrN3ByOHFVYTdxYmk4bGFwWkQxcXVfWkcwTm45QlBXMER5Q2lWbFBIQnc4aE92YnRaU2tXcg?oc=5",
-    "snippet": "Accor and Trust Contracting and Real Estate Investment Company sign ibis North Coast Sidi Kerir Zawya",
-    "author": "Zawya",
-    "publishedAt": "2026-07-22T08:52:00.000Z",
-    "id": "30686442b0e25993",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-07-24T17:48:47.392Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis hotel",
-    "title": "ibis Hyderabad HITEC City Appoints New Director of Sales",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tUHRLNWdjTDNIX0E1MmN5RDN0UHR3UGYtQVlCY0ZqYnVzMEV2d0pwbVo4N3M2MmM0RmdXTExTLWs5TjFDRXpYSHBIQk9rTDhjNXBiZGo3djVoTEE2OWZSVUVSX0ROOGg0elN5NWh5bFpoUng3YXpJ?oc=5",
-    "snippet": "ibis Hyderabad HITEC City Appoints New Director of Sales safariindia.com",
-    "author": "safariindia.com",
-    "publishedAt": "2026-07-25T03:21:04.000Z",
-    "id": "29b2a12e23649a37",
-    "sourceType": "earned",
-    "sentiment": "négatif",
-    "risk": "LOW",
-    "firstSeenAt": "2026-07-24T17:48:47.392Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Flight of the Ibis (1996)",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GcVpBd0tZTXFkVXpzTEVHRXBaT1hVempxMDNwU2hwQ29lT08wUTB6MHJkeG9mT0hya1pxMFZwb0dKV0FIUHRJVGlXVFllVnFYRU1ndllpOHc2aW0tOVp5clItV2VfcXRLM0dMV2tUcw?oc=5",
-    "snippet": "Flight of the Ibis (1996) IMDb",
-    "author": "IMDb",
-    "publishedAt": "2026-06-29T01:49:53.000Z",
-    "id": "60b13a5d9346d21e",
     "sourceType": "earned",
     "sentiment": "neutre",
     "risk": "LOW",
