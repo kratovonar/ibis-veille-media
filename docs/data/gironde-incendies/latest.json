@@ -1,0 +1,84 @@
+{
+  "subjectId": "gironde-incendies",
+  "subjectLabel": "Incendies Gironde · Accor",
+  "generatedAt": "2026-07-27T07:08:24.856Z",
+  "status": "RAS",
+  "isBaseline": true,
+  "alertThreshold": "HIGH",
+  "alertSince": "2026-06-27T07:08:24.856Z",
+  "alertWindowDays": 30,
+  "nextRun": "2026-07-27T08:17:00.000Z",
+  "counts": {
+    "total": 500,
+    "new": 0,
+    "byRisk": {
+      "HIGH": 409,
+      "MODERATE": 56,
+      "LOW": 35
+    }
+  },
+  "newMentions": [],
+  "alerting": [],
+  "manualWatch": [
+    {
+      "label": "Mercure Bordeaux Airport (H1508)",
+      "note": "",
+      "instagram": "https://www.instagram.com/mercure_bordeaux_aeroport/",
+      "instagramIsAccount": true,
+      "facebook": "https://www.facebook.com/search/top?q=Mercure%20Bordeaux%20Airport",
+      "x": "https://x.com/search?q=Mercure%20Bordeaux%20Airport&f=live",
+      "googleNews": "https://news.google.com/search?q=Mercure%20Bordeaux%20Airport"
+    },
+    {
+      "label": "ibis budget Bordeaux Airport (H7508)",
+      "note": "",
+      "instagram": "https://www.instagram.com/ibis_budget_bordeaux_aeroport/",
+      "instagramIsAccount": true,
+      "facebook": "https://www.facebook.com/search/top?q=ibis%20budget%20Bordeaux%20Airport",
+      "x": "https://x.com/search?q=ibis%20budget%20Bordeaux%20Airport&f=live",
+      "googleNews": "https://news.google.com/search?q=ibis%20budget%20Bordeaux%20Airport"
+    },
+    {
+      "label": "ibis Styles Bordeaux Airport (H2079)",
+      "note": "",
+      "instagram": "https://www.instagram.com/ibis_styles_bordeaux_aeroport/",
+      "instagramIsAccount": true,
+      "facebook": "https://www.facebook.com/search/top?q=ibis%20Styles%20Bordeaux%20Airport",
+      "x": "https://x.com/search?q=ibis%20Styles%20Bordeaux%20Airport&f=live",
+      "googleNews": "https://news.google.com/search?q=ibis%20Styles%20Bordeaux%20Airport"
+    },
+    {
+      "label": "Novotel Mérignac (H0402)",
+      "note": "Compte Instagram officiel non identifié — page Facebook existante",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Novotel%20M%C3%A9rignac%20Bordeaux",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=Novotel%20Bordeaux%20M%C3%A9rignac",
+      "x": "https://x.com/search?q=Novotel%20M%C3%A9rignac%20Bordeaux&f=live",
+      "googleNews": "https://news.google.com/search?q=Novotel%20M%C3%A9rignac%20Bordeaux"
+    },
+    {
+      "label": "greet Bordeaux Airport (HB7B1)",
+      "note": "Compte Instagram officiel non identifié",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=greet%20Bordeaux%20Airport",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=greet%20Bordeaux%20Airport",
+      "x": "https://x.com/search?q=greet%20Bordeaux%20Airport&f=live",
+      "googleNews": "https://news.google.com/search?q=greet%20Bordeaux%20Airport"
+    },
+    {
+      "label": "ibis Styles Bordeaux St. Médard (H7208)",
+      "note": "Compte Instagram officiel non identifié — page Facebook existante",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=ibis%20Styles%20Bordeaux%20Saint%20M%C3%A9dard",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=ibis%20styles%20Bordeaux%20St%20M%C3%A9dard",
+      "x": "https://x.com/search?q=ibis%20Styles%20Bordeaux%20Saint%20M%C3%A9dard&f=live",
+      "googleNews": "https://news.google.com/search?q=ibis%20Styles%20Bordeaux%20Saint%20M%C3%A9dard"
+    }
+  ],
+  "sources": [
+    "google_news",
+    "reddit",
+    "bluesky",
+    "mastodon"
+  ]
+}

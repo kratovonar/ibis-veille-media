@@ -1,0 +1,66 @@
+{
+  "subjectId": "saldanha-chats",
+  "subjectLabel": "ibis Saldanha · chats",
+  "generatedAt": "2026-07-27T07:08:24.856Z",
+  "status": "RAS",
+  "isBaseline": true,
+  "alertThreshold": "HIGH",
+  "alertSince": "2026-06-27T07:08:24.856Z",
+  "alertWindowDays": 30,
+  "nextRun": "2026-07-27T08:17:00.000Z",
+  "counts": {
+    "total": 500,
+    "new": 0,
+    "byRisk": {
+      "HIGH": 18,
+      "MODERATE": 83,
+      "LOW": 399
+    }
+  },
+  "newMentions": [],
+  "alerting": [],
+  "manualWatch": [
+    {
+      "label": "ibis Lisboa Centro Saldanha",
+      "note": "",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=ibis%20Lisboa%20Centro%20Saldanha",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=ibis%20Lisboa%20Centro%20Saldanha",
+      "x": "https://x.com/search?q=ibis%20Lisboa%20Centro%20Saldanha&f=live",
+      "googleNews": "https://news.google.com/search?q=ibis%20Lisboa%20Centro%20Saldanha"
+    },
+    {
+      "label": "colónia de gatos Arroios",
+      "note": "",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=col%C3%B3nia%20de%20gatos%20Arroios",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=col%C3%B3nia%20de%20gatos%20Arroios",
+      "x": "https://x.com/search?q=col%C3%B3nia%20de%20gatos%20Arroios&f=live",
+      "googleNews": "https://news.google.com/search?q=col%C3%B3nia%20de%20gatos%20Arroios"
+    },
+    {
+      "label": "colónia de gatos Saldanha",
+      "note": "",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=col%C3%B3nia%20de%20gatos%20Saldanha",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=col%C3%B3nia%20de%20gatos%20Saldanha",
+      "x": "https://x.com/search?q=col%C3%B3nia%20de%20gatos%20Saldanha&f=live",
+      "googleNews": "https://news.google.com/search?q=col%C3%B3nia%20de%20gatos%20Saldanha"
+    },
+    {
+      "label": "Casa dos Animais de Lisboa",
+      "note": "",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Casa%20dos%20Animais%20de%20Lisboa",
+      "instagramIsAccount": false,
+      "facebook": "https://www.facebook.com/search/top?q=Casa%20dos%20Animais%20de%20Lisboa",
+      "x": "https://x.com/search?q=Casa%20dos%20Animais%20de%20Lisboa&f=live",
+      "googleNews": "https://news.google.com/search?q=Casa%20dos%20Animais%20de%20Lisboa"
+    }
+  ],
+  "sources": [
+    "google_news",
+    "reddit",
+    "bluesky",
+    "mastodon"
+  ]
+}
