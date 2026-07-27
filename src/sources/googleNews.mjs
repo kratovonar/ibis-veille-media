@@ -6,9 +6,12 @@ import { fetchText, stripHtml, truncate, sleep } from '../util.mjs';
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' });
 
 function localeParams(lang) {
-  return lang === 'pt'
-    ? { hl: 'pt-PT', gl: 'PT', ceid: 'PT:pt' }
-    : { hl: 'en-US', gl: 'US', ceid: 'US:en' };
+  const map = {
+    pt: { hl: 'pt-PT', gl: 'PT', ceid: 'PT:pt' },
+    fr: { hl: 'fr-FR', gl: 'FR', ceid: 'FR:fr' },
+    en: { hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  };
+  return map[lang] || map.en;
 }
 
 function buildUrl({ term, lang, phrase }) {

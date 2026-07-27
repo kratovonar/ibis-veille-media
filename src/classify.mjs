@@ -3,18 +3,21 @@
 // Principe (repris de la méthodo de veille e-réputation) :
 //   sévérité = sensibilité du sujet × diffusion — jamais le simple comptage.
 
-// Domaines / handles considérés comme "owned" (canaux officiels de la marque).
+// Domaines / handles considérés comme "owned" (canaux officiels des marques Accor).
 const OWNED_DOMAINS = [
   'all.accor.com',
   'accor.com',
   'ibis.com',
   'ibishotel.com',
   'group.accor.com',
+  'novotel.com',
+  'mercure.com',
+  'greet.com',
 ];
-const OWNED_HANDLE_HINTS = ['ibis', 'accor', 'accorhotels'];
+const OWNED_HANDLE_HINTS = ['ibis', 'accor', 'accorhotels', 'novotel', 'mercure', 'greet'];
 
 // Termes sensibles (déclencheurs de risque), EN + PT, en minuscule sans accent géré à part.
-const SENSITIVE = [
+export const SENSITIVE = [
   // EN
   'cruelty', 'abuse', 'poison', 'poisoned', 'killing', 'killed', 'dead', 'death',
   'eviction', 'evict', 'removed', 'removal', 'protest', 'petition', 'boycott',
@@ -41,12 +44,12 @@ const POSITIVE = [
   'resgate', 'salvos', 'salvo',
 ];
 
-// Entités du sujet.
-const TOPIC_BRAND = ['ibis', 'accor', 'saldanha', 'arroios'];
+// Entités du sujet « chats Saldanha » (exportées pour composer le topic dans subjects.mjs).
+export const TOPIC_BRAND = ['ibis', 'accor', 'saldanha', 'arroios'];
 
 // Chats / félins / animaux — élargi à plusieurs langues (le HIGH exige d'en trouver un).
 // foldAccents() gère déjà les accents, donc « colónia » == « colonia ».
-const TOPIC_CATS = [
+export const TOPIC_CATS = [
   // EN
   'cat', 'cats', 'kitten', 'kittens', 'feline', 'felines', 'stray', 'strays', 'feral',
   'cat colony', 'colony', 'animal', 'animals', 'animal welfare', 'animal rights',
@@ -90,28 +93,31 @@ export function classifySentiment(mention) {
   return 'neutre';
 }
 
-// Risque — recentré sur les chats/animaux.
-// RÈGLE : une mention n'est HIGH (= niveau d'alerte) QUE si elle parle de
-// chats/animaux (TOPIC_CATS, toutes langues). Le reste ne déclenche pas d'alerte.
-export function classifyRisk(mention) {
+// Risque — paramétré par sujet (`topic`), pour supporter plusieurs veilles.
+// Un `topic` = { primary: [...], brand: [...], sensitive: [...] } :
+//   - primary  : le sujet définissant (chats/animaux, ou incendies/évacuations…)
+//   - brand    : entités marque/lieu qui rendent la mention directement concernante
+//   - sensitive: termes à risque (peuvent recouper `primary`)
+// RÈGLE : une mention n'est HIGH (= niveau d'alerte) QUE si elle relève du sujet `primary`.
+export function classifyRisk(mention, topic) {
   const t = hay(mention);
-  const onBrand = anyIn(t, TOPIC_BRAND);
-  const onCats = anyIn(t, TOPIC_CATS);
-  const sensitive = anyIn(t, SENSITIVE);
+  const onPrimary = anyIn(t, topic.primary);
+  const onBrand = anyIn(t, topic.brand);
+  const sensitive = anyIn(t, topic.sensitive);
 
-  // HIGH : parle de chats/animaux ET (terme à risque OU croise la marque/hôtel).
-  if (onCats && (sensitive || onBrand)) return 'HIGH';
-  // MODERATE : à surveiller mais pas alertant — chats seuls, ou terme à risque hors sujet chats.
-  if (onCats || sensitive) return 'MODERATE';
+  // HIGH : dans le sujet ET (terme à risque OU croise une marque/lieu concerné).
+  if (onPrimary && (sensitive || onBrand)) return 'HIGH';
+  // MODERATE : à surveiller mais pas alertant — sujet seul, ou terme à risque hors sujet.
+  if (onPrimary || sensitive) return 'MODERATE';
   return 'LOW';
 }
 
-export function classify(mention) {
+export function classify(mention, topic) {
   return {
     ...mention,
     sourceType: classifySourceType(mention),
     sentiment: classifySentiment(mention),
-    risk: classifyRisk(mention),
+    risk: classifyRisk(mention, topic),
   };
 }
 

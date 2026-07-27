@@ -15,7 +15,7 @@
           <span class="brand-mark">🐈‍⬛</span>
           <div>
             <h1>Veille réputationnelle</h1>
-            <p class="sub">ibis Lisboa Centro Saldanha · colonie de chats d'Arroios</p>
+            <p class="sub" id="subject-sub">Chargement…</p>
           </div>
         </div>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Changer de thème">🌓</button>
@@ -23,6 +23,9 @@
     </header>
 
     <main class="wrap" id="app">
+      <!-- Onglets (un par sujet de veille) -->
+      <nav id="tabs" class="tabs" aria-label="Sujets de veille"></nav>
+
       <!-- Bandeau d'état -->
       <section id="status-hero" class="hero" aria-live="polite">
         <div class="hero-loading">Chargement des données de veille…</div>

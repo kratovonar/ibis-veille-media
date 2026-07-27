@@ -1,8 +1,9 @@
-// Dashboard statique — lit docs/data/*.json et rend l'état de la veille.
+// Dashboard statique MULTI-SUJETS — lit docs/data/subjects.json puis, par sujet,
+// docs/data/<id>/{latest,mentions,runs}.json. Onglet = sujet.
 'use strict';
 
 const DATA = './data';
-const state = { mentions: [], runs: [], latest: null };
+const state = { subjects: [], activeId: null, latest: null, mentions: [], runs: [] };
 
 // ---- utils ----
 const $ = (sel) => document.querySelector(sel);
@@ -12,7 +13,6 @@ const el = (tag, cls, txt) => {
   if (txt != null) n.textContent = txt;
   return n;
 };
-const esc = (s) => String(s ?? '');
 
 function fmtDate(iso) {
   if (!iso) return '—';
@@ -25,9 +25,9 @@ function fmtDate(iso) {
   return `${s} UTC`;
 }
 
-async function loadJson(name, fallback) {
+async function loadJson(path, fallback) {
   try {
-    const res = await fetch(`${DATA}/${name}.json?t=${Date.now()}`, { cache: 'no-store' });
+    const res = await fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' });
     if (!res.ok) return fallback;
     return await res.json();
   } catch {
@@ -35,13 +35,27 @@ async function loadJson(name, fallback) {
   }
 }
 
-// ---- rendu ----
+// ---- onglets ----
+function renderTabs() {
+  const nav = $('#tabs');
+  nav.innerHTML = '';
+  for (const s of state.subjects) {
+    const btn = el('button', 'tab' + (s.id === state.activeId ? ' active' : ''), s.label);
+    btn.type = 'button';
+    btn.dataset.id = s.id;
+    if (s.status === 'ALERT') btn.append(el('span', 'tab-dot', ''));
+    btn.addEventListener('click', () => selectSubject(s.id));
+    nav.append(btn);
+  }
+}
+
+// ---- rendu sections ----
 function renderHero() {
   const l = state.latest;
   const hero = $('#status-hero');
   if (!l) {
     hero.className = 'hero';
-    hero.innerHTML = '<div class="hero-loading">Aucune donnée pour l’instant. La première collecte amorcera la veille.</div>';
+    hero.innerHTML = '<div class="hero-loading">Aucune donnée pour ce sujet. La première collecte amorcera la veille.</div>';
     return;
   }
   const status = l.status || 'RAS';
@@ -104,12 +118,11 @@ function renderAlert() {
 function renderTimeline() {
   const box = $('#runs-timeline');
   box.innerHTML = '';
-  if (!state.runs.length) { box.append(el('div', 'empty', 'Aucun passage journalisé pour l’instant.')); return; }
+  if (!state.runs.length) { box.append(el('div', 'empty', 'Aucun passage journalisé pour ce sujet.')); return; }
   for (const run of state.runs.slice(0, 30)) {
     const row = el('div', 'run-row');
     row.append(el('span', 'run-when', fmtDate(run.ranAt)));
-    const pill = el('span', `pill ${run.status}`, run.status === 'ALERT' ? 'ALERTE' : 'RAS');
-    row.append(pill);
+    row.append(el('span', `pill ${run.status}`, run.status === 'ALERT' ? 'ALERTE' : 'RAS'));
     const counts = el('span', 'run-counts');
     const br = run.byRisk || {};
     counts.innerHTML = `<b>${run.nNew ?? 0}</b> nouvelle(s) · ${run.nTotal ?? 0} suivies · HIGH ${br.HIGH ?? 0} / MOD ${br.MODERATE ?? 0}` +
@@ -185,7 +198,8 @@ function renderManual() {
   if (!items.length) { box.append(el('div', 'empty', 'Liens indisponibles.')); return; }
   for (const it of items) {
     const card = el('div', 'manual-item');
-    card.append(el('h3', null, it.query));
+    card.append(el('h3', null, it.label));
+    if (it.note) card.append(el('p', 'manual-item-note', it.note));
     const links = el('div', 'links');
     const add = (label, href) => {
       if (!href) return;
@@ -193,7 +207,7 @@ function renderManual() {
       a.href = href; a.target = '_blank'; a.rel = 'noopener';
       links.append(a);
     };
-    add('Instagram', it.instagramTag);
+    add(it.instagramIsAccount ? 'Instagram ↗ (compte)' : 'Instagram', it.instagram);
     add('Facebook', it.facebook);
     add('X', it.x);
     add('Google News', it.googleNews);
@@ -204,9 +218,46 @@ function renderManual() {
 
 function initFilters() {
   const sel = $('#f-platform');
+  // reset options (garde "Toutes")
+  sel.length = 1;
   for (const p of platformList()) {
     const o = el('option', null, p); o.value = p; sel.append(o);
   }
+}
+
+function renderAll() {
+  const sub = state.subjects.find((s) => s.id === state.activeId);
+  $('#subject-sub').textContent = (sub && (sub.description || sub.label)) || '';
+  renderHero();
+  renderAlert();
+  renderTimeline();
+  initFilters();
+  renderMentions();
+  renderManual();
+  $('#foot-generated').textContent = state.latest ? fmtDate(state.latest.generatedAt) : '—';
+}
+
+// ---- chargement d'un sujet ----
+async function selectSubject(id) {
+  state.activeId = id;
+  renderTabs();
+  // reset filtres à chaque changement d'onglet
+  ['#f-lang', '#f-source', '#f-platform', '#f-risk'].forEach((s) => { const e = $(s); if (e) e.value = ''; });
+  $('#f-new').checked = false;
+  $('#f-text').value = '';
+
+  const [latest, mentions, runs] = await Promise.all([
+    loadJson(`${DATA}/${id}/latest.json`, null),
+    loadJson(`${DATA}/${id}/mentions.json`, []),
+    loadJson(`${DATA}/${id}/runs.json`, []),
+  ]);
+  state.latest = latest;
+  state.mentions = Array.isArray(mentions) ? mentions : [];
+  state.runs = Array.isArray(runs) ? runs : [];
+  renderAll();
+}
+
+function bindFilters() {
   ['#f-lang', '#f-source', '#f-platform', '#f-risk'].forEach((s) => $(s).addEventListener('change', renderMentions));
   $('#f-new').addEventListener('change', renderMentions);
   $('#f-text').addEventListener('input', renderMentions);
@@ -226,22 +277,25 @@ function initTheme() {
 
 async function main() {
   initTheme();
-  const [latest, mentions, runs] = await Promise.all([
-    loadJson('latest', null),
-    loadJson('mentions', []),
-    loadJson('runs', []),
-  ]);
-  state.latest = latest;
-  state.mentions = Array.isArray(mentions) ? mentions : [];
-  state.runs = Array.isArray(runs) ? runs : [];
+  bindFilters();
 
-  renderHero();
-  renderAlert();
-  renderTimeline();
-  initFilters();
-  renderMentions();
-  renderManual();
-  $('#foot-generated').textContent = latest ? fmtDate(latest.generatedAt) : '—';
+  const subjects = await loadJson(`${DATA}/subjects.json`, []);
+  state.subjects = Array.isArray(subjects) ? subjects : [];
+
+  // Enrichit chaque onglet avec le statut courant (pour la pastille d'alerte).
+  const summary = await loadJson(`${DATA}/summary.json`, null);
+  if (summary && Array.isArray(summary.subjects)) {
+    const byId = Object.fromEntries(summary.subjects.map((s) => [s.id, s]));
+    state.subjects = state.subjects.map((s) => ({ ...s, status: byId[s.id]?.status }));
+  }
+
+  if (!state.subjects.length) {
+    $('#tabs').innerHTML = '';
+    $('#subject-sub').textContent = 'Aucun sujet configuré';
+    renderHero();
+    return;
+  }
+  await selectSubject(state.subjects[0].id);
 }
 
 main();

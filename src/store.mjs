@@ -34,12 +34,16 @@ function isRecentEnough(m, alertSince) {
   return eff >= alertSince;
 }
 
-const paths = {
-  state: join(DATA_DIR, 'state.json'),
-  mentions: join(DATA_DIR, 'mentions.json'),
-  runs: join(DATA_DIR, 'runs.json'),
-  latest: join(DATA_DIR, 'latest.json'),
-};
+// Chaque sujet a son propre sous-dossier docs/data/<subjectId>/.
+function subjectPaths(subjectId) {
+  const dir = join(DATA_DIR, subjectId);
+  return {
+    state: join(dir, 'state.json'),
+    mentions: join(dir, 'mentions.json'),
+    runs: join(dir, 'runs.json'),
+    latest: join(dir, 'latest.json'),
+  };
+}
 
 async function readJson(p, fallback) {
   if (!existsSync(p)) return fallback;
@@ -55,7 +59,8 @@ async function writeJson(p, obj) {
   await writeFile(p, JSON.stringify(obj, null, 2) + '\n', 'utf8');
 }
 
-export async function loadStore() {
+export async function loadStore(subjectId) {
+  const paths = subjectPaths(subjectId);
   const [state, mentions, runs] = await Promise.all([
     readJson(paths.state, {}),
     readJson(paths.mentions, []),
@@ -134,7 +139,8 @@ export function reconcile({ state, mentions, collected, isFirstRun, nowIso }) {
   };
 }
 
-export async function persist({ known, allMentions, runs, run, latest }) {
+export async function persist(subjectId, { known, allMentions, runs, run, latest }) {
+  const paths = subjectPaths(subjectId);
   const nextRuns = [run, ...runs].slice(0, RUNS_CAP);
   await Promise.all([
     writeJson(paths.state, known),
@@ -142,6 +148,17 @@ export async function persist({ known, allMentions, runs, run, latest }) {
     writeJson(paths.runs, nextRuns),
     writeJson(paths.latest, latest),
   ]);
+}
+
+// Manifeste des onglets (lu par le dashboard pour construire la navigation).
+export async function writeManifest(subjects) {
+  await writeJson(join(DATA_DIR, 'subjects.json'),
+    subjects.map((s) => ({ id: s.id, label: s.label, description: s.description })));
+}
+
+// Résumé transverse (lu par le workflow pour ouvrir les Issues d'alerte par sujet).
+export async function writeSummary(summaryRows, nowIso) {
+  await writeJson(join(DATA_DIR, 'summary.json'), { generatedAt: nowIso, subjects: summaryRows });
 }
 
 export { ALERT_THRESHOLD, ALERT_WINDOW_DAYS };

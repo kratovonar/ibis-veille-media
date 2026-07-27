@@ -57,42 +57,47 @@ jobs:
             git push
           fi
 
-      - name: Alerte (Issue GitHub)
+      - name: Alerte (Issue GitHub par sujet)
         if: steps.collect.outputs.status == 'ALERT'
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const latest = JSON.parse(fs.readFileSync('docs/data/latest.json', 'utf8'));
-            const items = (latest.alerting || []).slice(0, 25);
-            const lines = items.map(m =>
-              `- **[${m.risk}]** [${m.title}](${m.url}) — ${m.platform} · ${(m.language||'').toUpperCase()} · \`${m.keyword}\``
-            ).join('\n');
-            const body = [
-              `### ⚠︎ Veille ibis Saldanha — ${items.length} nouvelle(s) mention(s) à risque`,
-              ``,
-              `Généré le ${latest.generatedAt} (seuil d'alerte : ${latest.alertThreshold}).`,
-              ``,
-              lines || '_(aucun détail)_',
-              ``,
-              `Dashboard : voir GitHub Pages du dépôt. Ceci est une alerte automatique.`,
-            ].join('\n');
+            const summary = JSON.parse(fs.readFileSync('docs/data/summary.json', 'utf8'));
+            const day = new Date(summary.generatedAt).toISOString().slice(0, 10);
 
-            const title = `⚠︎ Alerte veille ibis Saldanha — ${new Date(latest.generatedAt).toISOString().slice(0,10)}`;
-            // Réutilise une Issue ouverte du même jour si elle existe, sinon en crée une.
             const { data: open } = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,
               state: 'open', labels: 'veille-alerte',
             });
-            const existing = open.find(i => i.title === title);
-            if (existing) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner, repo: context.repo.repo,
-                issue_number: existing.number, body,
-              });
-            } else {
-              await github.rest.issues.create({
-                owner: context.repo.owner, repo: context.repo.repo,
-                title, body, labels: ['veille-alerte'],
-              });
+
+            for (const s of summary.subjects.filter(x => x.status === 'ALERT')) {
+              const latest = JSON.parse(fs.readFileSync(`docs/data/${s.id}/latest.json`, 'utf8'));
+              const items = (latest.alerting || []).slice(0, 25);
+              const lines = items.map(m =>
+                `- **[${m.risk}]** [${m.title}](${m.url}) — ${m.platform} · ${(m.language||'').toUpperCase()} · \`${m.keyword}\``
+              ).join('\n');
+              const body = [
+                `### ⚠︎ ${latest.subjectLabel} — ${items.length} nouvelle(s) mention(s) à risque`,
+                ``,
+                `Généré le ${latest.generatedAt} (seuil : ${latest.alertThreshold}, fenêtre : ${latest.alertWindowDays || 'date fixe'} j).`,
+                ``,
+                lines || '_(aucun détail)_',
+                ``,
+                `Dashboard : onglet « ${latest.subjectLabel} » sur GitHub Pages. Alerte automatique.`,
+              ].join('\n');
+
+              const title = `⚠︎ Alerte veille [${s.id}] — ${day}`;
+              const existing = open.find(i => i.title === title);
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  issue_number: existing.number, body,
+                });
+              } else {
+                await github.rest.issues.create({
+                  owner: context.repo.owner, repo: context.repo.repo,
+                  title, body, labels: ['veille-alerte'],
+                });
+              }
             }
