@@ -1,13 +1,13 @@
 {
   "subjectId": "saldanha-chats",
   "subjectLabel": "ibis Saldanha · chats",
-  "generatedAt": "2026-07-27T07:08:24.856Z",
+  "generatedAt": "2026-07-27T11:37:11.766Z",
   "status": "RAS",
-  "isBaseline": true,
+  "isBaseline": false,
   "alertThreshold": "HIGH",
-  "alertSince": "2026-06-27T07:08:24.856Z",
+  "alertSince": "2026-06-27T11:37:11.766Z",
   "alertWindowDays": 30,
-  "nextRun": "2026-07-27T08:17:00.000Z",
+  "nextRun": "2026-07-27T16:17:00.000Z",
   "counts": {
     "total": 500,
     "new": 0,
