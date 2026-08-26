@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-25T16:58:07.369Z",
+  "generatedAt": "2026-08-26T09:00:24.069Z",
   "subjects": [
     {
       "id": "saldanha-chats",
       "label": "ibis Saldanha · chats",
       "status": "RAS",
-      "nNew": 5,
+      "nNew": 9,
       "nTotal": 500,
       "byRisk": {
         "HIGH": 11,
-        "MODERATE": 44,
-        "LOW": 445
+        "MODERATE": 42,
+        "LOW": 447
       },
       "alerting": 0
     },
@@ -21,9 +21,9 @@
       "nNew": 58,
       "nTotal": 500,
       "byRisk": {
-        "HIGH": 165,
-        "MODERATE": 113,
-        "LOW": 222
+        "HIGH": 159,
+        "MODERATE": 117,
+        "LOW": 224
       },
       "alerting": 21
     }
