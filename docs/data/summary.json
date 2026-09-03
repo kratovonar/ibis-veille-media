@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-02T19:24:13.773Z",
+  "generatedAt": "2026-09-03T12:48:15.961Z",
   "subjects": [
     {
       "id": "saldanha-chats",
       "label": "ibis Saldanha · chats",
       "status": "RAS",
-      "nNew": 17,
+      "nNew": 82,
       "nTotal": 500,
       "byRisk": {
-        "HIGH": 12,
-        "MODERATE": 33,
-        "LOW": 455
+        "HIGH": 14,
+        "MODERATE": 26,
+        "LOW": 460
       },
       "alerting": 0
     },
@@ -18,14 +18,14 @@
       "id": "gironde-incendies",
       "label": "Incendies Gironde · Accor",
       "status": "ALERT",
-      "nNew": 37,
+      "nNew": 50,
       "nTotal": 500,
       "byRisk": {
-        "HIGH": 163,
-        "MODERATE": 110,
-        "LOW": 227
+        "HIGH": 157,
+        "MODERATE": 102,
+        "LOW": 241
       },
-      "alerting": 7
+      "alerting": 3
     }
   ]
 }
