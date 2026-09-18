@@ -14,7 +14,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-09-18T12:56:45.596Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +32,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-09-18T12:56:45.596Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
