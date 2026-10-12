@@ -4,6 +4,384 @@
     "platform": "news",
     "language": "fr",
     "keyword": "incendies Gironde",
+    "title": "Mozart, le chat rescapé des incendies en Gironde, a enfin retrouvé sa maîtresse, 17 ans après sa fugue",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOMFk5U0taSUlwMDVmcjJQbW1sNWpIenJTQmJJVXVhSjQzQ2loOF9oVnZFeXlIVUFpTFN6anF3c2doa3pVdUtIUXlhRkRXODFrX2Q1NFpmTnFpamNndHdVaDEzaHgxbDJMQWtVMk9zbFVFWGRmZTJZOVFDVUw1RHltd3FmQzFnZ3ZKSU1kU2t2NmRnQ0tlRklzNW84YkxJbWUzaHVxbFpKRFhRdFJfcDJtTXFaU1hIN1R6cHdDcnhyTkMtUm9sUUFIOS1BRjNFSGFUTnBCUGJRNjBZT1JRZjgweEpjSnBmM2VaMDJqVXBVYVNfX0phRXNlRHBsUmRyRG1TbFJkSUtLaFcwcmNF?oc=5",
+    "snippet": "Mozart, le chat rescapé des incendies en Gironde, a enfin retrouvé sa maîtresse, 17 ans après sa fugue Ouest-France",
+    "author": "Ouest-France",
+    "publishedAt": "2026-08-24T07:00:00.000Z",
+    "id": "a6eb6b8d118f2a87",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "HIGH",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "Gironde wildfire",
+    "title": "‘It felt like being in a disaster movie’: uncertainty after evacuation from France’s Gironde wildfire",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPem9nMzVmdmt6SVUyQ092dFhud3paeDhObFRiN2p4V20ybjRjbWlpTmdGekZEcFRiZVVzRHV3NkpGX2toLXl3YXFKcTY1Z2NHWjN5dk1xcGxXNFUxV3hYUWxzZEhTSTNPME9JY2RpSVpvVjZ2MkxLcFNURGtpQ3puOW85WThvbk0?oc=5",
+    "snippet": "‘It felt like being in a disaster movie’: uncertainty after evacuation from France’s Gironde wildfire AOL.ca",
+    "author": "AOL.ca",
+    "publishedAt": "2026-07-27T07:00:00.000Z",
+    "id": "77df09939c60bdbc",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "HIGH",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#incendie",
+    "title": "Paris : les images du violent incendie qui a totalement détruit le marché des Enfants-Rouges Par Yohan Mouchon Publié l…",
+    "url": "https://pubeurope.com/@paris/117430380443318060",
+    "snippet": "Paris : les images du violent incendie qui a totalement détruit le marché des Enfants-Rouges Par Yohan Mouchon Publié le 12 oct. 2026 à 15h48 ; mis à jour le 12 oct. 2026… # Paris # FR # France # Actu # News # Europe # EU # Actualités # Incendie # Marché # Société https://www. europesays.com/fra/paris/31330/",
+    "author": "@paris@pubeurope.com",
+    "publishedAt": "2026-10-12T22:50:04.000Z",
+    "id": "bf06d77a38f51e0f",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#incendie",
+    "title": "À Paris, le marché historique des Enfants rouges ravagé par les flammes : Actualités « Terriblement triste »: un incend…",
+    "url": "https://pubeurope.com/@paris/117429948296398417",
+    "snippet": "À Paris, le marché historique des Enfants rouges ravagé par les flammes : Actualités « Terriblement triste »: un incendie spectaculaire a détruit dans la nuit de dimanche à lundi, sans faire de victime,… # Paris # FR # France # Actu # News # Europe # EU # Actualités # Alimentation # Distribution # Incendie # restaurat…",
+    "author": "@paris@pubeurope.com",
+    "publishedAt": "2026-10-12T21:00:10.000Z",
+    "id": "818d5f67158790f4",
+    "sourceType": "earned",
+    "sentiment": "négatif",
+    "risk": "HIGH",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "en",
+    "keyword": "#Bordeaux",
+    "title": "« Le ministère de l’intérieur considère la manifestation lycéenne comme une activité criminelle nécessitant la présence…",
+    "url": "https://mastodon.social/@rue89bordeaux/117429781115326494",
+    "snippet": "« Le ministère de l’intérieur considère la manifestation lycéenne comme une activité criminelle nécessitant la présence constante de la BAC » https:// rue89bordeaux.com/2026/10/bac- en-roue-libre-et-lacrymos-a-gogo-le-maintien-de-lordre-en-question-dans-les-manifs-a-bordeaux/ # Bordeaux",
+    "author": "@rue89bordeaux",
+    "publishedAt": "2026-10-12T20:17:39.736Z",
+    "id": "57ccbbc115e471fe",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "🎤 Doc Gyneco fait son grand retour au Rocher de Palmer le 7 novembre pour célébrer les 30 ans de « Première Consultati…",
+    "url": "https://mastodon.social/@echoppe33/117429550498090880",
+    "snippet": "🎤 Doc Gyneco fait son grand retour au Rocher de Palmer le 7 novembre pour célébrer les 30 ans de « Première Consultation ». L'occasion de replonger dans un classique du rap français ! # Bordeaux # RapFrançais https:// echoppe33.fr/doc-gyneco-au-roc her-de-palmer-le-7-novembre-pour-les-30-ans-de-premiere-2026-10-12/",
+    "author": "@echoppe33",
+    "publishedAt": "2026-10-12T19:19:00.762Z",
+    "id": "a5e2949b11b75c73",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1239298/ Foot : les Girondins de Bordeaux officialisent leur nouvel entraîneur et leur o…",
+    "url": "https://pubeurope.com/@fr/117430368953198081",
+    "snippet": "https://www. europesays.com/fr/1239298/ Foot : les Girondins de Bordeaux officialisent leur nouvel entraîneur et leur organisation pour la saison à venir # actu # Actualités # Bordeaux # EU # europe # FR # France # GirondinsDeBordeaux # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T22:47:09.000Z",
+    "id": "f985f966b1e46f21",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1239296/ Coup de cœur pour ce bordeaux 2022 # actu # Actualités # Bordeaux # EU # europe…",
+    "url": "https://pubeurope.com/@fr/117430364972328457",
+    "snippet": "https://www. europesays.com/fr/1239296/ Coup de cœur pour ce bordeaux 2022 # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T22:46:08.000Z",
+    "id": "cb7f1ea26db6f26f",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "« Le carnage s’accélère »: en Gironde, les opposants à la LGV Bordeaux-Toulouse bloquent les chantiers de déboisement e…",
+    "url": "https://pubeurope.com/@bordeaux/117430067135553255",
+    "snippet": "« Le carnage s’accélère »: en Gironde, les opposants à la LGV Bordeaux-Toulouse bloquent les chantiers de déboisement en attendant la justice Dans le sud de la Gironde, des opposants soutenus par trois députés bloquent depuis le 6 octobre, les… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités #…",
+    "author": "@bordeaux@pubeurope.com",
+    "publishedAt": "2026-10-12T21:30:24.000Z",
+    "id": "6b1ba1f0c8db1086",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "Colère des lycéens en Gironde. « C’est le même scénario que la dernière fois » : à Mérignac, les lycées sont restés fer…",
+    "url": "https://pubeurope.com/@bordeaux/117430067049466592",
+    "snippet": "Colère des lycéens en Gironde. « C’est le même scénario que la dernière fois » : à Mérignac, les lycées sont restés fermés après une nouvelle matinée tendue « C’est le même scénario que la dernière fois : la rumeur avait circulé sur les réseaux sociaux, leur projet… # Bordeaux # FR # France # Actu # News # Europe # EU…",
+    "author": "@bordeaux@pubeurope.com",
+    "publishedAt": "2026-10-12T21:30:22.000Z",
+    "id": "9efac01031daa391",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1239179/ « Le carnage s’accélère »: en Gironde, les opposants à la LGV Bordeaux-Toulouse…",
+    "url": "https://pubeurope.com/@fr/117430042459416454",
+    "snippet": "https://www. europesays.com/fr/1239179/ « Le carnage s’accélère »: en Gironde, les opposants à la LGV Bordeaux-Toulouse bloquent les chantiers de déboisement en attendant la justice # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T21:24:07.000Z",
+    "id": "ee7e71977535c153",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1239177/ Colère des lycéens en Gironde. « C’est le même scénario que la dernière fois » …",
+    "url": "https://pubeurope.com/@fr/117430039573153956",
+    "snippet": "https://www. europesays.com/fr/1239177/ Colère des lycéens en Gironde. « C’est le même scénario que la dernière fois » : à Mérignac, les lycées sont restés fermés après une nouvelle matinée tendue # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T21:23:23.000Z",
+    "id": "ecd8c686f7b7a3b4",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "Office du commerce à Bordeaux : le maire n’est « pas pour créer des structures en plus » Si le maire convient d’une néc…",
+    "url": "https://pubeurope.com/@bordeaux/117429771922584579",
+    "snippet": "Office du commerce à Bordeaux : le maire n’est « pas pour créer des structures en plus » Si le maire convient d’une nécessité de « se parler et d’échanger régulièrement », à l’attention de ces acteurs économiques… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # R…",
+    "author": "@bordeaux@pubeurope.com",
+    "publishedAt": "2026-10-12T20:15:19.000Z",
+    "id": "4f9c6c77d96d5eff",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "Bordeaux 4e des grandes villes : culture au sommet, nature et sécurité en retrait En 2026, Bordeaux obtient 77 points s…",
+    "url": "https://pubeurope.com/@bordeaux/117429771872143031",
+    "snippet": "Bordeaux 4e des grandes villes : culture au sommet, nature et sécurité en retrait En 2026, Bordeaux obtient 77 points sur 100 et se place au quatrième rang d’un palmarès de 21… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise https://www. europ…",
+    "author": "@bordeaux@pubeurope.com",
+    "publishedAt": "2026-10-12T20:15:18.000Z",
+    "id": "973ef976f306a640",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1239063/ Bordeaux 4e des grandes villes : culture au sommet, nature et sécurité en retra…",
+    "url": "https://pubeurope.com/@fr/117429734841238453",
+    "snippet": "https://www. europesays.com/fr/1239063/ Bordeaux 4e des grandes villes : culture au sommet, nature et sécurité en retrait # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T20:05:53.000Z",
+    "id": "42fe819f1f45c23f",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "Bordeaux : prévisions météo du lundi 12 octobre 2026 À Bordeaux, la journée débute sous une pluie faible et une atmosph…",
+    "url": "https://pubeurope.com/@bordeaux/117429418116828374",
+    "snippet": "Bordeaux : prévisions météo du lundi 12 octobre 2026 À Bordeaux, la journée débute sous une pluie faible et une atmosphère humide, avant de laisser place à… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise https://www. europesays.com/fr/1238944/",
+    "author": "@bordeaux@pubeurope.com",
+    "publishedAt": "2026-10-12T18:45:20.000Z",
+    "id": "8c6b910ad3866303",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "Près de Bordeaux, un ecclésiastique condamné à sept ans de prison ferme pour agressions sexuelles sur mineurs Ces faits…",
+    "url": "https://pubeurope.com/@bordeaux/117429417992293809",
+    "snippet": "Près de Bordeaux, un ecclésiastique condamné à sept ans de prison ferme pour agressions sexuelles sur mineurs Ces faits se sont produits entre 1999 et 2016 pour l’un des deux hommes, et entre 2002 et… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefran…",
+    "author": "@bordeaux@pubeurope.com",
+    "publishedAt": "2026-10-12T18:45:18.000Z",
+    "id": "e1b9b14b34b7e31f",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1238944/ Bordeaux : prévisions météo du lundi 12 octobre 2026 # actu # Actualités # Bord…",
+    "url": "https://pubeurope.com/@fr/117429385658432811",
+    "snippet": "https://www. europesays.com/fr/1238944/ Bordeaux : prévisions météo du lundi 12 octobre 2026 # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T18:37:05.000Z",
+    "id": "976ec52ddb292fbf",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Bordeaux",
+    "title": "https://www. europesays.com/fr/1238942/ Près de Bordeaux, un ecclésiastique condamné à sept ans de prison ferme pour ag…",
+    "url": "https://pubeurope.com/@fr/117429381818030235",
+    "snippet": "https://www. europesays.com/fr/1238942/ Près de Bordeaux, un ecclésiastique condamné à sept ans de prison ferme pour agressions sexuelles sur mineurs # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
+    "author": "@fr@pubeurope.com",
+    "publishedAt": "2026-10-12T18:36:06.000Z",
+    "id": "2ed684292fb70496",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Merignac",
+    "title": "⭕Tensions ce matin en marge d’un blocus devant le lycée #Ferdinand-Daguin à #Mérignac (33). #AB7-Média RE: https://bsky…",
+    "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:2cte4wipyk47qjujtxrskqcx/post/3mxpca63fof24",
+    "snippet": "⭕Tensions ce matin en marge d’un blocus devant le lycée #Ferdinand-Daguin à #Mérignac (33). #AB7-Média RE: https://bsky.app/profile/did:plc:2cte4wipyk47qjujtxrskqcx/post/3mxoqxjgesm24",
+    "author": "@antyfaszysta.bsky.social@bsky.brid.gy",
+    "publishedAt": "2026-10-12T19:53:11.654Z",
+    "id": "bfb7a65c883c4ff0",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "mastodon",
+    "platform": "mastodon",
+    "language": "und",
+    "keyword": "#Merignac",
+    "title": "⭕Tensions ce matin en marge d’un blocus devant le lycée #Ferdinand-Daguin à #Mérignac (33). #AB7-Média RE: https://bsky…",
+    "url": "https://bsky.brid.gy/r/https://bsky.app/profile/did:plc:2cte4wipyk47qjujtxrskqcx/post/3mxpca63fof24",
+    "snippet": "⭕Tensions ce matin en marge d’un blocus devant le lycée #Ferdinand-Daguin à #Mérignac (33). #AB7-Média RE: https://bsky.app/profile/did:plc:2cte4wipyk47qjujtxrskqcx/post/3mxoqxjgesm24",
+    "author": "@antyfaszysta.bsky.social@bsky.brid.gy",
+    "publishedAt": "2026-10-12T19:53:11.654Z",
+    "id": "64a8e7f1d52943f3",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-12T23:01:51.815Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "fr",
+    "keyword": "incendies Gironde",
     "title": "Gironde : une maison prend feu à Saint-André-de-Cubzac, une famille relogée",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM0xHRXlONkF1Y2JqakhPbVlaMnZ0bmUwTS0zNWoyMkp1QkV0Zy1rZmxYbzdib0ZLOEJOcGxSTHJTdTJETmlJNWdXV2hBVzdaZkstazZfTWptN3k0MEhIZnpQVk1hZnhrX0tuR0lMcnFWQzVHdDJRUmgtQ2hvTjgyVnRtVnVhbjFWRVVzT3FTcW5FVTVyRWIzRmhFOFBlRWxEVW42U092R1BwU0xxZGRmY1R2YVZNS1hGclVJUVRhVQ?oc=5",
     "snippet": "Gironde : une maison prend feu à Saint-André-de-Cubzac, une famille relogée Sud Ouest",
@@ -14,7 +392,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +410,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +428,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +446,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +464,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +482,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +500,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +518,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -158,7 +536,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -176,7 +554,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -194,7 +572,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -212,7 +590,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -230,7 +608,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -248,7 +626,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -266,7 +644,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -284,7 +662,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -302,7 +680,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -320,7 +698,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -338,7 +716,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -356,7 +734,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -374,7 +752,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -392,7 +770,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -410,7 +788,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -428,7 +806,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -446,7 +824,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -464,7 +842,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -482,7 +860,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -500,7 +878,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -518,7 +896,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -536,7 +914,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -554,7 +932,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -572,7 +950,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -590,7 +968,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -608,7 +986,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -626,7 +1004,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -644,7 +1022,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -662,7 +1040,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -680,7 +1058,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -698,7 +1076,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -708,7 +1086,7 @@
     "keyword": "#Bordeaux",
     "title": "Académies les plus touchées : - # Lyon - # Bordeaux - # Creteil Devinez de quelle académie l'ex ministre d'extrême-droi…",
     "url": "https://mastodon.social/@cobrate/117429133389325246",
-    "snippet": "Académies les plus touchées : - # Lyon - # Bordeaux - # Creteil Devinez de quelle académie l'ex ministre d'extrême-droite Blanquer à l'origine de la falsification du bac général vu que peersonne n'a défendu celle du pro, était-il le recteur [celui qui donne les ordres aux inspecteurs et proviseurs/principaux] Rappelez…",
+    "snippet": "Académies les plus touchées : - # Lyon - # Bordeaux - # Creteil Devinez de quelle académie l'ex ministre d'extrême-droite Blanquer à l'origine de la falsification du bac général vu que personne n'a défendu celle du pro, était-il le recteur [celui qui donne les ordres aux inspecteurs et proviseurs/principaux] Rappelez-…",
     "author": "@cobrate",
     "publishedAt": "2026-10-12T17:32:56.185Z",
     "id": "f583cdeda7721b27",
@@ -716,7 +1094,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -734,7 +1112,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -752,7 +1130,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -770,7 +1148,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -788,7 +1166,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -806,7 +1184,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -824,7 +1202,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -842,7 +1220,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -860,7 +1238,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -878,7 +1256,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -896,7 +1274,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -914,7 +1292,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -932,7 +1310,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -950,7 +1328,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -968,7 +1346,7 @@
     "sentiment": "négatif",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -986,7 +1364,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1004,7 +1382,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1022,7 +1400,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1040,7 +1418,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1058,7 +1436,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1076,7 +1454,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1094,7 +1472,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1112,7 +1490,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1130,7 +1508,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-12T17:51:07.431Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -2559,7 +2937,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "fr",
-    "keyword": "incendie Gironde",
+    "keyword": "incendies Gironde",
     "title": "Incendies en Gironde : en garde à vue, un homme avoue être à l’origine de treize feux",
     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQX3lnNGlwVTMxYU9QLVN5Q01UZ1NhNnkzQXNRTnJxODZIY19ycmZKSlplMEdMSWw4SnAycGp6TUtHVGlrZTV3Rzh0dGxNaVphVGN3R1FobTdHQmpvU2VHQjdoOGppcGZMMFR1LWtabEU5U2s5LS1BUldsVmtKS3p2UzlmY3kxcHV0eDNQTTBJR3Q5c0VGTFVUUFV6enJKbWNjZ2F4eTc2eG0tVEdrRGE5ZVc4YXVJX1prS0FFaEJ6X05JTFJzeE12S0ZNVlRJVV9hX2lRUGI2Q1RhVHRQZHhranA0YXZyUGdNY0tLek82V3cwSzhlR1Y3T3d0TGtlQklySWpVRDBZYTRwMHZjSFJ0QmJiQVEyb3h5SUdQZjFn?oc=5",
     "snippet": "Incendies en Gironde : en garde à vue, un homme avoue être à l’origine de treize feux Ouest-France",
@@ -6560,7 +6938,7 @@
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHdObmdDWGJUX3JMdFhCSHQ0eldoWGRGd1dza0k0aENUcTNRMW1XaGlkalBlUDVLbTdZckRJYURtYjFxMVJyR29IX25nbkxWeTNCcDFHMzRKMnhXcEM5M1g0Rm9XcldxUHlCeW5rY1VoMm5VYVRvYzJDMjJROWN0cFgtR3Q0TzJDYVRVaXFsWk5tcVl0ZEV3bGNnSkptaWU0cUVDQnFyQQ?oc=5",
     "snippet": "Incendies en Gironde : les 14 mesures régionales désormais votées Bouger à Bordeaux",
     "author": "Bouger à Bordeaux",
-    "publishedAt": "2026-10-07T07:12:08.000Z",
+    "publishedAt": "2026-10-07T07:11:50.000Z",
     "id": "60f1b614e398b687",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -8617,384 +8995,6 @@
     "sourceType": "earned",
     "sentiment": "neutre",
     "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "La rive droite se transforme. Les deux boulevards reliant Bordeaux, Cenon et Floirac affichent un coût revu à la hausse…",
-    "url": "https://mastodon.social/@echoppe33/117393698649435694",
-    "snippet": "La rive droite se transforme. Les deux boulevards reliant Bordeaux, Cenon et Floirac affichent un coût revu à la hausse : 232 millions d'euros, soit 26 millions de plus en un an. # Bordeaux # Travaux https:// echoppe33.fr/sur-la-rive-droit e-deux-boulevards-et-232-millions-d-euros-pour-changer-de-visag-2026-10-06/",
-    "author": "@echoppe33",
-    "publishedAt": "2026-10-06T11:21:24.962Z",
-    "id": "d1afa7e0fd845c29",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "🎵 Fat Freddy's Drop au complet mercredi 7 octobre au Rocher de Palmer ! Le groupe néo-zélandais affiche guichets fermé…",
-    "url": "https://mastodon.social/@echoppe33/117392786865670820",
-    "snippet": "🎵 Fat Freddy's Drop au complet mercredi 7 octobre au Rocher de Palmer ! Le groupe néo-zélandais affiche guichets fermés. Dernière chance : la bourse aux billets. # Bordeaux # Musique https:// echoppe33.fr/fat-freddy-s-drop -au-rocher-de-palmer-ce-mercredi-7-octobre-concert-complet-2026-10-06/",
-    "author": "@echoppe33@mastodon.social",
-    "publishedAt": "2026-10-06T07:29:32.000Z",
-    "id": "3bdbfdb3b5fc3e6d",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "MODERATE",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "El dinero del vino de alta gama empieza a mirar más allá de Burdeos https://www. vinetur.com/20261005108282/onl y-two-o…",
-    "url": "https://mastodon.social/@vinetur/117392484954268828",
-    "snippet": "El dinero del vino de alta gama empieza a mirar más allá de Burdeos https://www. vinetur.com/20261005108282/onl y-two-of-the-top-10-gainers-came-from-bordeaux-in-the-third-quarter.html # Vino # AltaGama # Bordeaux # Borgoña # Champaña",
-    "author": "@vinetur@mastodon.social",
-    "publishedAt": "2026-10-06T06:12:45.000Z",
-    "id": "d58ed1eedba6d746",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "#Bordeaux Bien Public. I like the geometry on the photo. #fujifilm #x100vi",
-    "url": "https://pixelfed.social/p/z_eb/1012943832848924222",
-    "snippet": "#Bordeaux Bien Public. I like the geometry on the photo. #fujifilm #x100vi",
-    "author": "@z_eb@pixelfed.social",
-    "publishedAt": "2026-10-06T04:37:09.000Z",
-    "id": "995106730721028c",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "L’équipe de France à Bordeaux en novembre : Mbappé, Dembélé, Tchouaméni… Après les premières réussies de Zidane, les en…",
-    "url": "https://pubeurope.com/@bordeaux/117394087849367424",
-    "snippet": "L’équipe de France à Bordeaux en novembre : Mbappé, Dembélé, Tchouaméni… Après les premières réussies de Zidane, les enjeux du prochain rassemblement Zizou savourait aussi un scénario renversant, concluant sur une note « très positive » son premier rassemblement de sélectionneur de… # Bordeaux # FR # France # Actu # N…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T13:00:23.000Z",
-    "id": "89fc00079e606e54",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Foire aux Plaisirs 2026 : les manèges en illimité pour 20 € La Foire aux Plaisirs 2026 arrive sur la place des Quinconc…",
-    "url": "https://pubeurope.com/@bordeaux/117394087712730603",
-    "snippet": "Foire aux Plaisirs 2026 : les manèges en illimité pour 20 € La Foire aux Plaisirs 2026 arrive sur la place des Quinconces ce vendredi 9 octobre 2026 et, pour son… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise https://www. europesays.com/fr/1…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T13:00:21.000Z",
-    "id": "c32f11f8eb2e2efe",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1227122/ L’équipe de France à Bordeaux en novembre : Mbappé, Dembélé, Tchouaméni… Après …",
-    "url": "https://pubeurope.com/@fr/117394070801650871",
-    "snippet": "https://www. europesays.com/fr/1227122/ L’équipe de France à Bordeaux en novembre : Mbappé, Dembélé, Tchouaméni… Après les premières réussies de Zidane, les enjeux du prochain rassemblement # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T12:56:03.000Z",
-    "id": "a6fc5cd6b4b61e88",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1227120/ Foire aux Plaisirs 2026 : les manèges en illimité pour 20 € # actu # Actualités…",
-    "url": "https://pubeurope.com/@fr/117394069781763830",
-    "snippet": "https://www. europesays.com/fr/1227120/ Foire aux Plaisirs 2026 : les manèges en illimité pour 20 € # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T12:55:47.000Z",
-    "id": "c3b302c55271282c",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Ligue des nations : Attention, un faux site prétend vendre des billets pour France-Turquie à Bordeaux Crédit obligatoir…",
-    "url": "https://pubeurope.com/@bordeaux/117393792701496328",
-    "snippet": "Ligue des nations : Attention, un faux site prétend vendre des billets pour France-Turquie à Bordeaux Crédit obligatoire : photo de David Winter/Shutterstock (17187491ns) Michael Olise, de France, célèbre avec Desire Doue, de France, après… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # eur…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T11:45:20.000Z",
-    "id": "e184f9bdccfa96da",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "À Bordeaux, ce café fait préparer ses pâtisseries par des retraitées À Bordeaux, un café a choisi de confier une partie…",
-    "url": "https://pubeurope.com/@bordeaux/117393792562063210",
-    "snippet": "À Bordeaux, ce café fait préparer ses pâtisseries par des retraitées À Bordeaux, un café a choisi de confier une partie de ses pâtisseries à des personnes retraitées. Ouvert… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise https://www. europes…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T11:45:18.000Z",
-    "id": "ce57010062294e98",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1227004/ Ligue des nations : Attention, un faux site prétend vendre des billets pour Fra…",
-    "url": "https://pubeurope.com/@fr/117393736867905791",
-    "snippet": "https://www. europesays.com/fr/1227004/ Ligue des nations : Attention, un faux site prétend vendre des billets pour France-Turquie à Bordeaux # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T11:31:08.000Z",
-    "id": "172aa8f3d7c1bc43",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1227002/ À Bordeaux, ce café fait préparer ses pâtisseries par des retraitées # actu # A…",
-    "url": "https://pubeurope.com/@fr/117393735679146602",
-    "snippet": "https://www. europesays.com/fr/1227002/ À Bordeaux, ce café fait préparer ses pâtisseries par des retraitées # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T11:30:49.000Z",
-    "id": "8c6a541c94d610ac",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Librairie de l’horreur à Bordeaux : pop-up et Franck Thilliez Vous aimez les histoires qui vous font regarder deux fois…",
-    "url": "https://pubeurope.com/@bordeaux/117393556610690636",
-    "snippet": "Librairie de l’horreur à Bordeaux : pop-up et Franck Thilliez Vous aimez les histoires qui vous font regarder deux fois derrière vous avant d’éteindre la lumière ? On… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise https://www. europesays.com…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T10:45:17.000Z",
-    "id": "33cfdc7df71d9477",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Mois de la photo 2027 à Bordeaux : les projets attendus jusqu’au 4 novembre Le Mois de la photo 2027 à Bordeaux commenc…",
-    "url": "https://pubeurope.com/@bordeaux/117393556559641591",
-    "snippet": "Mois de la photo 2027 à Bordeaux : les projets attendus jusqu’au 4 novembre Le Mois de la photo 2027 à Bordeaux commence bien avant le premier vernissage. La Ville invite les… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise https://www. europe…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T10:45:16.000Z",
-    "id": "456665e0fc4317db",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1226884/ Librairie de l’horreur à Bordeaux : pop-up et Franck Thilliez # actu # Actualit…",
-    "url": "https://pubeurope.com/@fr/117393395243478265",
-    "snippet": "https://www. europesays.com/fr/1226884/ Librairie de l’horreur à Bordeaux : pop-up et Franck Thilliez # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T10:04:15.000Z",
-    "id": "271c28d12df823de",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1226882/ Mois de la photo 2027 à Bordeaux : les projets attendus jusqu’au 4 novembre # a…",
-    "url": "https://pubeurope.com/@fr/117393391053563715",
-    "snippet": "https://www. europesays.com/fr/1226882/ Mois de la photo 2027 à Bordeaux : les projets attendus jusqu’au 4 novembre # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T10:03:11.000Z",
-    "id": "677542bc0855462f",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Bagage suspect : la circulation des trains interrompue pendant deux heures entre Agen et Bordeaux Par Marie-Pierre Cari…",
-    "url": "https://pubeurope.com/@bordeaux/117393084906522243",
-    "snippet": "Bagage suspect : la circulation des trains interrompue pendant deux heures entre Agen et Bordeaux Par Marie-Pierre Caris Publié le 6 oct. 2026 à 9h32 La gare SNCF de Marmande a été bouclée… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # Faitsdivers # NouvelleAquitaine # Républiquef…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T08:45:20.000Z",
-    "id": "ed4d5e01ac5ed3ec",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Coiffeurs et instituts de beauté : Bordeaux se classe cinquième pour ses avis clients À Bordeaux, les avis consacrés au…",
-    "url": "https://pubeurope.com/@bordeaux/117393084764695412",
-    "snippet": "Coiffeurs et instituts de beauté : Bordeaux se classe cinquième pour ses avis clients À Bordeaux, les avis consacrés aux coiffeurs et aux instituts de beauté placent la ville parmi les mieux… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAquitaine # Républiquefrançaise htt…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T08:45:17.000Z",
-    "id": "3e0a19da0c121aa8",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "HIGH",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1226764/ Bagage suspect : la circulation des trains interrompue pendant deux heures entr…",
-    "url": "https://pubeurope.com/@fr/117393080303207775",
-    "snippet": "https://www. europesays.com/fr/1226764/ Bagage suspect : la circulation des trains interrompue pendant deux heures entre Agen et Bordeaux # actu # Actualités # Bordeaux # EU # europe # FaitsDivers # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise # SNCF # Train",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T08:44:09.000Z",
-    "id": "f0d35a242b71e4c8",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "https://www. europesays.com/fr/1226762/ Coiffeurs et instituts de beauté : Bordeaux se classe cinquième pour ses avis c…",
-    "url": "https://pubeurope.com/@fr/117393077869970371",
-    "snippet": "https://www. europesays.com/fr/1226762/ Coiffeurs et instituts de beauté : Bordeaux se classe cinquième pour ses avis clients # actu # Actualités # Bordeaux # EU # europe # FR # France # News # NouvelleAquitaine # RépubliqueFrançaise",
-    "author": "@fr@pubeurope.com",
-    "publishedAt": "2026-10-06T08:43:32.000Z",
-    "id": "0e62fc9a828a1ad7",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "HIGH",
-    "firstSeenAt": "2026-10-06T15:07:15.358Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "mastodon",
-    "platform": "mastodon",
-    "language": "und",
-    "keyword": "#Bordeaux",
-    "title": "Mobilisation des lycéens : en Gironde, au moins 20 lycées fermés ce mardi, des syndicats rejoignent le mouvement Les ly…",
-    "url": "https://pubeurope.com/@bordeaux/117392790051240645",
-    "snippet": "Mobilisation des lycéens : en Gironde, au moins 20 lycées fermés ce mardi, des syndicats rejoignent le mouvement Les lycéens sont à nouveau appelés à se mobiliser ce mardi, soutenus par plusieurs syndicats. À Bordeaux, une… # Bordeaux # FR # France # Actu # News # Europe # EU # actu # Actualités # europe # NouvelleAqu…",
-    "author": "@bordeaux@pubeurope.com",
-    "publishedAt": "2026-10-06T07:30:20.000Z",
-    "id": "3681212627c9763e",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "MODERATE",
     "firstSeenAt": "2026-10-06T15:07:15.358Z",
     "isNew": false,
     "baseline": false
