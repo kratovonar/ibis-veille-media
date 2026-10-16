@@ -3,6 +3,24 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
+    "keyword": "hotel ibis",
+    "title": "Hotel Ibis chega ao ParkCity e reforça novo ciclo de crescimento de Sumaré",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTExnX3phdUNXNER1aVUyeUlXanlTQjdCcDZQSmxadkgwbzhTT0FGT0Q0N0U1RXVMYmtnY0FPRUNQWnJIVldtLUczaDlmMEdrb3RwaFdrcTRod0NNSzFwbWx3ZWtscWN0SWNGc0k3MzFuV1hNT2gxeTZBaHlsYll5bERiZ2VaOHpjWkFYcWRqSVJFamJXbG1jeTQ5QW1zam1IRFdWWUdyTUVQbDBWOXctN2E5dTY?oc=5",
+    "snippet": "Hotel Ibis chega ao ParkCity e reforça novo ciclo de crescimento de Sumaré Tribuna Liberal",
+    "author": "Tribuna Liberal",
+    "publishedAt": "2026-06-30T10:53:57.000Z",
+    "id": "878bfe8286247ad3",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-16T19:34:30.365Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
     "keyword": "ibis",
     "title": "Hotel Ibis une hotéis de Ponta Grossa em Dia das Crianças Solidário",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONFpQT2F3Q1dDanJyZFNVUzVLYV9UQTNoREVzVmVKSzBIOWtBU3dBZllsQnN2M1lfb1VfSHhsV0hQLWY0ZnowbFlhUjFrcUxqUlNGd0Z2dk91WHJhV0Y2Ql85MDBidEVWSzNFN1VzcGJLZm1ubEF3WTRyeVhnT0ExOEd0OHlxZHBFakVrQXhQVF8xeGl6aEVzcUtrMTJmMkU3U0NDTW1XTlRDc1pRcUpPMnVmcXNFNHFnUVZzdzFDOEw4U1o5dFdvYVIzUFVZYWRzWHQ2b0tFQVBNSW9HQS1Xbk0zSkzSAfMBQVVfeXFMTVBjZ19Qb3g4bHNUNTdTaHBCNU1NZUYxVlRRamFiOVYtZmF5RXhuRG1rMHRLVlZpSGxONWNNSTMzZERuTTE3V1RYOXJiYlNRTjNiQzVlZDZ0b2N3N0RqS0xjaEYyVWpyV3dZQjBfZmk4aEdOYzVHem9KSE0tUW9NWHZXOVVvVUJCTVFsQzRiZUZQUHdwRVd5VnlPMjdHeTk3U1JpSEQwRm5kVjFjX1dGX1R5SE95bVRoUC1lY0lmSW01YjZKXzRSbTZaaVNsdmFWQ3plTS1rcjZvUE5hVUVRWUZNaXdrOEVXbTJfNEJBNEpTTlRF?oc=5",
@@ -14,7 +32,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +50,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +68,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +86,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +104,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +122,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +140,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +158,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -158,7 +176,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-16T13:13:17.963Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -618,8 +636,8 @@
     "keyword": "ibis styles",
     "title": "Tasmania JackJumpers welcome ibis Styles Hobart as Official Accommodation Partner",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbjhqSFF3S19tV1ctdlZJQThKcnBnQjVmdnlJTDJpX2NISzRwY2EyQlRsTDVKaHIxZFNTR3lVUDFEWEIxa2cyMzJQeW1sS0wzZVlCWEdRU2xZNkJwUE80dzV3WkNrSmxGYW1GeWIwd255Q1FFQklMQ1k2cl9zWFdfZU9MR2dQWkNYZ0FFajAyZUw3T29JdzF6cjJDRDQyenA4NUZpOEhhQlZnN2RSSnhoVUViQ29DdHNRVXg5ZHVwaEVtMTlKeXhIRk9Ia1lTX1E?oc=5",
-    "snippet": "Tasmania JackJumpers welcome ibis Styles Hobart as Official Accommodation Partner Tasmania JackJumpers",
-    "author": "Tasmania JackJumpers",
+    "snippet": "Tasmania JackJumpers welcome ibis Styles Hobart as Official Accommodation Partner JackJumpers",
+    "author": "JackJumpers",
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "id": "05e70025c2b9824b",
     "sourceType": "earned",
@@ -1029,7 +1047,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
-    "keyword": "ibis budget",
+    "keyword": "ibis",
     "title": "Hotéis em São Paulo, Belo Horizonte e Rio de Janeiro: confira diárias a partir de R$ 142",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXFVWTMyd0dweVlQT293RW5UdlMwV0VsbTR5Z2EybjJTeXJLRnQ0dllUSms1RWhhNEVzZENFaEl3RzVaQTE4ZlYydExnbWozYVhMNnRGX3ZpbWhfNTRJcndrbHNKY3pqMnUwbHBwempmeGxLcVJ0bENiTTBJZXc4SVpRWllXa0xydWV3NWpZZXRYUmNlQVhfdVR4YUkxTHpt?oc=5",
     "snippet": "Hotéis em São Paulo, Belo Horizonte e Rio de Janeiro: confira diárias a partir de R$ 142 Pontos pra Voar",
@@ -2472,8 +2490,8 @@
     "keyword": "Junta de Freguesia de Arroios",
     "title": "Vítor Carvalho assumiu presidência da junta após renúncia de independente, que rejeita ter sido \"premeditada\". Socialista quer Arroios abrangida pela medida contra proliferação de lojas de fachada. Leia o artigo completo através do link nos comentários. (📸",
     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZ2ZvTnJidHpFUXBNMGoyWVBJZHhTX3ltdkdVdkxpc3JKSmZUcjJqaTVFTW9KNUVfZXNMUzF4OWwtTkV3S09XWFV2bUhNZTdJYXFCZGZfSW5NYS1iMHd5eDFsZnphY2p3bUR3dWxzWktHOVhtSnMwWGMyLVdXd3NIYzByWEt4bVpzNENXcHBvcHVVRWdmZEVQSjJ0SDlxcXRlOUZqQndFQ2t4SnZKOFRWMXFEZzJFVUltQUFNT2hBU2w0eXFieVZlemVONU9sc2pUaHVoNGowQlJFT185NHMxTWdNLUlyaE5CWlN1b3ltekxVa2NuV3RnQXF3?oc=5",
-    "snippet": "Vítor Carvalho assumiu presidência da junta após renúncia de independente, que rejeita ter sido \"premeditada\". Socialista quer Arroios abrangida pela medida contra proliferação de lojas de fachada. Leia o artigo completo através do link nos comentários. (📸 facebook.com",
-    "author": "facebook.com",
+    "snippet": "Vítor Carvalho assumiu presidência da junta após renúncia de independente, que rejeita ter sido \"premeditada\". Socialista quer Arroios abrangida pela medida contra proliferação de lojas de fachada. Leia o artigo completo através do link nos comentários. (📸 Facebook",
+    "author": "Facebook",
     "publishedAt": "2026-09-20T07:00:00.000Z",
     "id": "f92ad65088e589a7",
     "sourceType": "earned",
@@ -8978,24 +8996,6 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-09-07T19:59:32.441Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Starboard/LaSalle JV acquires seven Accor hotels in key markets across the UK from Ares and EQ Group",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQVd3NUdnWmJxQVZtSW84QjRsSkdVWGc0MVZhbWtkZGc5eE1zcUpmcXA0dUw5d3NjX3Azbm5vdTNfa3A3d1NxRllaNFBWSDBSUTh5VUlBV1k2TnVJdVU0bG1tVVZ6MHAtTUxpZ3lMRUFzclJZYm1Nb0JfSnRCdld3d3BpME9nZHRYUElVbjNkYWR0NjNKS3lsNXVJcnJmU3BFOHZNaEc3X3dESlJPNHpodjJfRnRveTJBSUwwMVM1MVFkTWo1d2RIbHVwcEFTNjdPb3lnZjJpTHNNSHc?oc=5",
-    "snippet": "Starboard/LaSalle JV acquires seven Accor hotels in key markets across the UK from Ares and EQ Group Hospitality Net",
-    "author": "Hospitality Net",
-    "publishedAt": "2026-09-07T12:10:40.000Z",
-    "id": "1203f13db47972b3",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-07T14:13:38.052Z",
     "isNew": false,
     "baseline": false
   }
