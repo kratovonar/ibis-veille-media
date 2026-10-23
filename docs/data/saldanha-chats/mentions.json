@@ -3,6 +3,168 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
+    "keyword": "Junta de Freguesia de Arroios",
+    "title": "Festa do Livro Independente regressa a Arroios",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM014Y3ZNVE41Y3N0WW1UeHFrWWpOVUg5MGR5aktMbEduTzZPYzhmS3BXWGZnM3dVTUwtb3oxN01Rc1hWYU9HY0hBNHJnd3NacVRpV0lmTGhqUlc3S1JmZzg5MTVtWFNfWXN4YUlrVTFGY2ljWHM1X0l2QmVsT25CanBUWGpaY01aYmdoWVM5WQ?oc=5",
+    "snippet": "Festa do Livro Independente regressa a Arroios SAPO",
+    "author": "SAPO",
+    "publishedAt": "2026-10-23T13:26:02.000Z",
+    "id": "278e06afcb0deca1",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
+    "keyword": "Junta de Freguesia de Arroios",
+    "title": "Festa do Livro Independente regressa a Arroios",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZmo5dTRxVUdrS1BWOXF0LUZIWDA2RUJnX3RJN25seHlpcEtkRFA3TnR3bGpCQlJCaEFqandoc0Z4WGpqTWtIQTdPWl82WllCWDB0eWk4allkSHpLdkwzal92ckpXbHFPTWJhOUtnRUlhNDF5Q2hjRVVyZDEzRHVENTJxWkplUHlZbXR2d2xxcHlabzY4aWlxbFRn?oc=5",
+    "snippet": "Festa do Livro Independente regressa a Arroios SAPO",
+    "author": "SAPO",
+    "publishedAt": "2026-10-23T13:21:11.000Z",
+    "id": "bda3fa9b66124c30",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
+    "keyword": "ibis",
+    "title": "Accor e ibis lançam programa de mobilidade social no Brasil",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2hlVFd5Vk14anByUFJxTllJei1GU09UWFhXLUphUFVkb1g1a0gtaWhvdEpUMWpUSldNUWJXTHZlcjZwVWpLbVN5bnNRUFFVS2xOanVLdmdCLTFlN2ozNGhHM1N5RGJjdUlNZFd6LXFRQWcyTTNuQ21SdW9QdTJwR1UtOHZHTGM5bWpZbkRmU2ozODhSV3VOWExsU1VHQmY2VDFoYUcxQlliSzlNY01ncXktbGxjeC00VTAycVY3S1NmLTFWa2c?oc=5",
+    "snippet": "Accor e ibis lançam programa de mobilidade social no Brasil Panrotas",
+    "author": "Panrotas",
+    "publishedAt": "2026-10-23T13:46:00.000Z",
+    "id": "ee8178d3b4edee4f",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis",
+    "title": "Canon R8V Rumor: R6V-Style Body, 32.5MP Sensor, IBIS, Expected Q4 2027",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMVRBa1pyaFRVd3BOcTNLS3pHTjJDbFhKNGIzUHJYdVNpTmdOTmYzUHVxckF1WVRlU241cEpGZm9SYW9qZ0lJNmlsU25vZ19kWXBmdW9zMjd6aEFkTFB0Q1pRSnc2QkxMYnMxam90d0xJN0Q2QnZPSTBBMWNrLUlCUU9hcXl5QVBLbmgzRktnMEJyS0d4Z0p3?oc=5",
+    "snippet": "Canon R8V Rumor: R6V-Style Body, 32.5MP Sensor, IBIS, Expected Q4 2027 NEW CAMERA",
+    "author": "NEW CAMERA",
+    "publishedAt": "2026-10-23T15:09:13.000Z",
+    "id": "6400b55f26146efc",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis",
+    "title": "Fragrance Group wins approval for 13-storey Hobart hotel building",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbmU4SmpyNkRMVTJFMXNiOWRDeHVhdVpSSGZDX0dUS1BGVERUVTZ1OU5PYTJkTGxWeDMzMjd2cTBhNzNQX2E2NzZQWE16SlhEbW5PbjZucUk0TXVsVXBEOW93Unlrdl9UQ04wWnJPTTk0MU8yZlNMdUhYdEs5MGp1cjBUU19ncFh2Ml9XaDBleGxRc1hxWkVYTlhYaFRGOTVEcFE?oc=5",
+    "snippet": "Fragrance Group wins approval for 13-storey Hobart hotel building Pulse Tasmania",
+    "author": "Pulse Tasmania",
+    "publishedAt": "2026-10-23T18:00:00.000Z",
+    "id": "ec721c5774929621",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis",
+    "title": "Ibis Sport Club U20 - Ipojuca U20 0-2",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb2hMc2tURk85WTZhR2pqM2pSenY4S01oOENRREw5b2w0MUNMNU5RUkN2Zjc0VnRjMVBtOE53Ulhqd1I3OG9PSnByem4tSEtMRFdBdkhxNndNYmxtVWxrdDg1cWxFeFZIWmVGQ1NsdEJrZVlXNU5sZGkxeGZBNGpnNl8yMGM0T3o5M2tVaA?oc=5",
+    "snippet": "Ibis Sport Club U20 - Ipojuca U20 0-2 Flashscore.com",
+    "author": "Flashscore.com",
+    "publishedAt": "2026-07-29T11:10:05.000Z",
+    "id": "a44db4eb0afd9e88",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis hotel",
+    "title": "Mysterious discoveries during the expansion of the ibis Styles hotel in Bolesławiec",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ienVqc2IxNDhWcTVPRkQ4RjV2ZEJFbGZ0SVF3X1BVYWdOOU9JUlhwNTYwNTlKWVJ3VVdoZzZDRld0dG5VTUpsakNlcVZyZw?oc=5",
+    "snippet": "Mysterious discoveries during the expansion of the ibis Styles hotel in Bolesławiec istotne.pl",
+    "author": "istotne.pl",
+    "publishedAt": "2026-10-23T10:06:00.000Z",
+    "id": "ab38424c627ab467",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis styles",
+    "title": "New Mercure and ibis Styles hotels to open in Sibiu in 2023",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kNVZESHJwQ3c1SHlHN3dRWk9LM1lPbUhHbXd2SmFHeGlUTkFHN0xXX0RzZDVEaEtoQThOZkV0SnFnSDc4a2VTZXE4cVljb2dDT29pbVN1OHJOSVNEb2VyTzBBYlA2bUc4SVV4RC10clpqdw?oc=5",
+    "snippet": "New Mercure and ibis Styles hotels to open in Sibiu in 2023 Romania Insider",
+    "author": "Romania Insider",
+    "publishedAt": "2026-08-12T07:00:00.000Z",
+    "id": "e37c73175199715d",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
+    "keyword": "ibis budget",
+    "title": "Economize no Rio! Hospede-se em hotéis ibis com diárias a partir de R$ 203",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdGVoaktkbnRsWUFxSk1VSEdUek5uVjF6akxncHNDZGN3VnVyWTZoZGhTY1VYeng2TGU1RllrQ3hfbDBxWTJ6NThfdkI4c2dNUV8xeWswaEEtNDVJeWZUVWV5dXB2X0pmNXhXSkYzSmNhb2JyWVBybk8yTG9iaF9fc1lwNl9FOVlsSV9FM19CSkt6Zw?oc=5",
+    "snippet": "Economize no Rio! Hospede-se em hotéis ibis com diárias a partir de R$ 203 Pontos pra Voar",
+    "author": "Pontos pra Voar",
+    "publishedAt": "2026-01-13T08:00:00.000Z",
+    "id": "2fea308ce04044d8",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-23T19:58:15.220Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
     "keyword": "Casa dos Animais de Lisboa",
     "title": "Areeiro reforça apoio aos animais de rua e às famílias que precisam de ajuda",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZmVpWWJTXzFQbHNKSFQta2ZzcXM0UjVVTkd1X1VSWWxuSk5tcHRjY2lIVUd1YVY2dUlmdEw2aGpWMjk3ODVKU2VfM3p2Nm4xb2NRRHpWMEQ2ZzNyX1pFWThTUEttUVd1aEZiSWptOFpWbVNRdXpmX1hCbVpvZHhoVmRBRmNrdmdMcnFxanZTWkFNejRjQy0zY0NFdUtCWHBkRHBBOUJB?oc=5",
@@ -14,7 +176,7 @@
     "sentiment": "positif",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +194,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +212,7 @@
     "sentiment": "positif",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +230,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +248,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +266,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +284,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +302,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -158,7 +320,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -176,7 +338,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -194,7 +356,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -212,7 +374,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -230,7 +392,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -248,7 +410,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -266,7 +428,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -284,7 +446,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -302,7 +464,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -320,7 +482,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -338,7 +500,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -356,7 +518,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -374,7 +536,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -392,7 +554,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -410,7 +572,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -428,7 +590,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -446,7 +608,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -464,7 +626,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -482,7 +644,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -500,7 +662,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -518,7 +680,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -536,7 +698,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -554,7 +716,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -572,7 +734,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -590,7 +752,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -608,7 +770,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -626,7 +788,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -644,7 +806,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -662,7 +824,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -680,7 +842,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -698,7 +860,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -716,7 +878,7 @@
     "sentiment": "positif",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -734,7 +896,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -752,7 +914,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-23T13:21:58.010Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1155,7 +1317,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "en",
-    "keyword": "ibis",
+    "keyword": "ibis styles",
     "title": "ibis Styles Larnaca Finikoudes Beach: The new hotel unit from Accor in Larnaca (photos)",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0ozazVvbDJ2b2IySmU1eVkyVURmMExaeW9WdmtzTWhjazRPd0pOaGRoV2ZEWXBnUkhvOTdGUGZXdm52VnFmM0tnUmhlYzEwd21mNXpuZkd4T0dOU0NHSnJVRzZsOWRHLXhUVVRvLU9rVk80Y3dEem5keERUZFNaelpwQUwyWlZUTlJmSDRfTGtuOGJsbUZvTWFodWpqSDhKMmZ6VW1aRUkydXhxc196ZVIyd2pKLV95Z19GdEpSUQ?oc=5",
     "snippet": "ibis Styles Larnaca Finikoudes Beach: The new hotel unit from Accor in Larnaca (photos) CBN.com.cy",
@@ -1659,7 +1821,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "en",
-    "keyword": "ibis",
+    "keyword": "ibis hotel",
     "title": "Stevenage thief sentenced after stealing more than £4,200 of Burberry clothing",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeU03aUltTk53ODlieFZlRVZwVTlueG01ZzRkaXNGcW9hbHNzWWIwdk1RRDJNV3RMQWN5dUh2eG02b0dtbnVHSHNFVm9laDFxLXU2RThJdG9RLWFTaUUyc1NBM3N5bU5WSjM0aUF5M2lQemVjVW43c1dqWTRMekxhc2RhSmFZQkJ3NGV5OF9LWkwwQQ?oc=5",
     "snippet": "Stevenage thief sentenced after stealing more than £4,200 of Burberry clothing The Comet",
@@ -1857,7 +2019,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "en",
-    "keyword": "ibis styles",
+    "keyword": "ibis",
     "title": "Accor to enter Finland with upcoming ibis Styles in the heart of Helsinki",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcWtBYXVRLWhfdS1hQWhpRzMwUHV0TGZYVGpCSGhRR1ZybXVQWHZRdGM2bE9FNDdkd2FHVnRUaVVSUkNNWDhyenJRZUN2R09OVzk4aVhVMEdMWllWblJ2TXZwTnlmejBRaXhMaC1NMjBwVWVQeHgyUWlJc0FVMTRfQlBsVk8waVNZV044WmkxczNYSnFaOFcwVHEyR3QxYW1ValRSbDNjT3FDWWx2cFczMTNNVzR1THFUVENGbjlaOA?oc=5",
     "snippet": "Accor to enter Finland with upcoming ibis Styles in the heart of Helsinki Breaking Travel News",
@@ -2474,7 +2636,7 @@
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONFpQT2F3Q1dDanJyZFNVUzVLYV9UQTNoREVzVmVKSzBIOWtBU3dBZllsQnN2M1lfb1VfSHhsV0hQLWY0ZnowbFlhUjFrcUxqUlNGd0Z2dk91WHJhV0Y2Ql85MDBidEVWSzNFN1VzcGJLZm1ubEF3WTRyeVhnT0ExOEd0OHlxZHBFakVrQXhQVF8xeGl6aEVzcUtrMTJmMkU3U0NDTW1XTlRDc1pRcUpPMnVmcXNFNHFnUVZzdzFDOEw4U1o5dFdvYVIzUFVZYWRzWHQ2b0tFQVBNSW9HQS1Xbk0zSkzSAfMBQVVfeXFMTVBjZ19Qb3g4bHNUNTdTaHBCNU1NZUYxVlRRamFiOVYtZmF5RXhuRG1rMHRLVlZpSGxONWNNSTMzZERuTTE3V1RYOXJiYlNRTjNiQzVlZDZ0b2N3N0RqS0xjaEYyVWpyV3dZQjBfZmk4aEdOYzVHem9KSE0tUW9NWHZXOVVvVUJCTVFsQzRiZUZQUHdwRVd5VnlPMjdHeTk3U1JpSEQwRm5kVjFjX1dGX1R5SE95bVRoUC1lY0lmSW01YjZKXzRSbTZaaVNsdmFWQ3plTS1rcjZvUE5hVUVRWUZNaXdrOEVXbTJfNEJBNEpTTlRF?oc=5",
     "snippet": "Hotel Ibis une hotéis de Ponta Grossa em Dia das Crianças Solidário G1",
     "author": "G1",
-    "publishedAt": "2026-10-15T18:58:59.000Z",
+    "publishedAt": "2026-10-15T07:00:00.000Z",
     "id": "6b856312b707a5cb",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -2924,7 +3086,7 @@
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTUM3ZjVwd3g1enlXUEZtMmo3MFdCNElmUm9fZHl0SzdSWFRwa0NCeDRDczROclNLZUdRUEFwUjc2d3NmaUw5UnFkdHNyT2wteDVmQ1M0Tm5YMGZrSXVKVGwzUUFWZ0pUVVIzRUtaYmE1cTlYQTNUbE1sYjhLNE1GQU9KNklnTkJUbmZtMmRUSGM4cml2TmRQRkVpRGdGd1dqTzZqRlBaci0?oc=5",
     "snippet": "Invincible Ibis out with Suspensory Injury The Standard (HK)",
     "author": "The Standard (HK)",
-    "publishedAt": "2026-10-15T11:21:20.000Z",
+    "publishedAt": "2026-10-15T07:00:00.000Z",
     "id": "0c28169b92eb3d40",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -3518,7 +3680,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNX1VmWWpCRnFrMnd3TkpDRHhzVUE1cWJiTmp4c1lTOFJpZGszT1R2MUJGZ2luX0VSdzZVaTlCWGtkalV0MHlpejZPZzRxMmVDMUgyajNZZ0tXUzlyOGNBblYzRS1kNzg?oc=5",
     "snippet": "Ibis in the Treetops Cape Gazette",
     "author": "Cape Gazette",
-    "publishedAt": "2026-10-12T15:49:32.000Z",
+    "publishedAt": "2026-10-12T07:00:00.000Z",
     "id": "beb9adf838931c0f",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -4503,7 +4665,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "en",
-    "keyword": "ibis hotel",
+    "keyword": "ibis",
     "title": "Construction of Malaga's new Ibis hotel expected to take several years",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3k1cFF2bk8ycDQ5X3FscjhPYkN5M3NnNjBNNTZlNVNMZ05ZX25hVEg4WFJIZ2phbTYyOUtsV1p0ejU3MlpGazBuRTkxV0pQTTZPcXBFUldsUExGSzdyWTRzYVlyNW04RGpseG54V0ZiX19zY2ZjTjVZYmlGOXlhTHFyNnZHMmdNMFVzWkMtRTN6b1h3cFhzOHlR?oc=5",
     "snippet": "Construction of Malaga's new Ibis hotel expected to take several years Sur in English",
@@ -5030,7 +5192,7 @@
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNHRVM0h0TTl2cmxKcDF5bzlsanBWZUdpQnl3WHJRZEFEamxBZENoSW5mdWkxNWtKRHp0VGF0YWJDc05ITVFwcTRkeUlTNHZiMHpVSTFxLWVtRVRveUltak9BMFVSMDlmeUY5MVRuM09UaXpuNXFoUUZNQkstX3hoN1g5OC1VVm11R2szcF9B?oc=5",
     "snippet": "Hotéis próximos à Avenida Paulista: confira diárias a partir de R$ 166 Pontos pra Voar",
     "author": "Pontos pra Voar",
-    "publishedAt": "2026-10-03T19:00:22.000Z",
+    "publishedAt": "2026-10-03T07:00:00.000Z",
     "id": "6b2484feaf7dd825",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -5907,11 +6069,11 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
-    "keyword": "hotel ibis",
+    "keyword": "ibis",
     "title": "Prefeitura autoriza início da obra do hotel Ibis em Suzano",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZG5DM21qazJOWEZvbjFJTU5nM0I3N3lKS0FWTm1MdDhicGluNFNiazBHaFZHSjJTY0VVOVJMQm9JS2duZ3dXMFRFMGFfZHhhTXZVYjQwckV5YmprVkF2d3FkVkJKd0xra20tWXJMU09HSmljX3FKUFZOb1FJY1BzUDRwTU4tUVczZWhobXQ5aTd6R1BMZlRoYk5sbFdrR1ktTUxjcTlLbVpyUW1QRmlJVTlWczlnclU?oc=5",
-    "snippet": "Prefeitura autoriza início da obra do hotel Ibis em Suzano Diario de Suzano",
-    "author": "Diario de Suzano",
+    "snippet": "Prefeitura autoriza início da obra do hotel Ibis em Suzano Diário de Suzano",
+    "author": "Diário de Suzano",
     "publishedAt": "2026-07-31T07:00:00.000Z",
     "id": "75c9bbb6c18f215f",
     "sourceType": "earned",
@@ -6105,7 +6267,7 @@
     "source": "google_news",
     "platform": "news",
     "language": "en",
-    "keyword": "ibis",
+    "keyword": "ibis hotel",
     "title": "Want to buy the former Ibis Red Cow hotel? It’s on the market with a multimillion euro price tag",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbnU0VnFsV1pJNGNTSktHZ0t3ZUhDUEoxbmlkMHNZWGhVN2RoRkZJSUZ3NmkzSmNsQmZsYk5NQjNyYXY1d0p6UFVabVBVTVZkekgzVmt5eXZ1WGVqZ1hkNExvM3pLaURwQUVTdVRTcXNvMWRtWlpENTBnSlVlbmU3SFJtOTl5T2lqWWhn?oc=5",
     "snippet": "Want to buy the former Ibis Red Cow hotel? It’s on the market with a multimillion euro price tag Business Post",
@@ -8834,168 +8996,6 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-09-16T19:34:52.368Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "Casa dos Animais de Lisboa",
-    "title": "Casa dos Animais vai colaborar com Lar de Cegos de Nossa Senhora da Saúde",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdWM5Slh4amZfR0VQNk9zbXdOcVNIOUhyeTFFZnlkMDFrVlFnWHgyZndWUHlQbmFEV2c1V1hHUERTMkNvUVFUdndLd0RQYnZQOWJ4cGRUSmg1T1ZmcHVUTENWN1cxOVNaYlZwOTQ3dmhNMGg5cHRVYzl3VXJxQjhDUXZ5bG42VFk4WmJMRkVKcTdrdDFveFFhM2JZWnhWV1ZyWXlQdFhyVVNkb0ZUVWowc0RPcFpfdE5FUlluakpJODZuOXBkX2c?oc=5",
-    "snippet": "Casa dos Animais vai colaborar com Lar de Cegos de Nossa Senhora da Saúde Informação Lisboa",
-    "author": "Informação Lisboa",
-    "publishedAt": "2022-06-02T07:00:00.000Z",
-    "id": "ef5176aa340c08a8",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "MODERATE",
-    "firstSeenAt": "2026-09-16T19:34:52.368Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "ibis",
-    "title": "Guanabara renova parceria com rede de hotéis ibis e mantém benefícios em hospedagem no Nordeste e Norte",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkpmOXFxVHlYMERlNFJsSElWSW53RWpDdndCam5LVzZpWjRLMVdPc0tGZDUwNjhxOTBzZTdpd1R6LTFyR0VrUFFQQVZDUmUteV9MWDFCaTU3MlFueVFFZ3NyODM1dGM1NlEzQXBGUkxQM3dCc05hSFNMOWZqMi03bGZ1OUNMTnp4bFZXemNKbHhMZ2Y4Z251cHZKVHMtTm5rNkc1TWhrcklOandLQVFxTG95c0NuSFMtaWdDRlVFX1cwTFltRGVnR2Q1SkxXbVRteU5xRG9MelQ5Y05RVnVRTg?oc=5",
-    "snippet": "Guanabara renova parceria com rede de hotéis ibis e mantém benefícios em hospedagem no Nordeste e Norte Turismo em foco",
-    "author": "Turismo em foco",
-    "publishedAt": "2026-04-14T07:00:00.000Z",
-    "id": "5f52e148a3df48b0",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T19:34:52.368Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Population Status, Ecology and Conservation Challenges of Cattle Egrets (Bubulcus ibis), Especially in the Southern Africa Subregion: A Systematic Review and Evidence Synthesis",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OWUZ4VG5rUHJUOU1HR21iOGlMaTh0R1d6NkszWXR5c2ZReExLVE5VZldPek9hZHFaMW5Vd081SVVVcXNLQVBXZ3RwZldYaTRJRWNCenhsdE1FUkFTcldoVnF4cUNkMlA0T1ZN?oc=5",
-    "snippet": "Population Status, Ecology and Conservation Challenges of Cattle Egrets (Bubulcus ibis), Especially in the Southern Africa Subregion: A Systematic Review and Evidence Synthesis Wiley Online Library",
-    "author": "Wiley Online Library",
-    "publishedAt": "2026-09-15T07:00:00.000Z",
-    "id": "b4d6468f9ae371c6",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "HIGH",
-    "firstSeenAt": "2026-09-16T19:34:52.368Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Canon EOS R8 Mark II Announced: Our thoughts and reaction",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fOGV1REFZVDlKRDdzV1Q1b25XbWZBU3EzYmpNU2NSUG9TQzV2Rk4wMzFaa0Vmc1BQeHdQLXl3WHp1dXRVNWxuYURCb1c5STB1Umx6SU5SamVraThFNHdKYjE2cUVHUHE4akJsMlB0cmhhQUJlVEZ6cGpUdVlhZGM?oc=5",
-    "snippet": "Canon EOS R8 Mark II Announced: Our thoughts and reaction Canon Rumors",
-    "author": "Canon Rumors",
-    "publishedAt": "2026-09-16T11:15:21.000Z",
-    "id": "44134d91ef76c227",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T19:34:52.368Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "hotel ibis",
-    "title": "Feix&Merlin showcase Ibis Styles Hamburg design",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3NRc3U4MDVsX2IzTzBfcF8yUHdQUG45aW52WnFjb091b2JvTWpjc3FTand1RVlkanNfcTVFdHdqWjhJN2tLeDdnaGpNS2RKOGh5amZZSEVPMUJkam1QMlNvWVY0alBaZG9oenl0cTk1RThDWmhVclo2VllTM2dMbGo2Rk5aOTRvQ1pvTFJiUTk2OTZDNlJ1YTJnaw?oc=5",
-    "snippet": "Feix&Merlin showcase Ibis Styles Hamburg design Sleeper Magazine",
-    "author": "Sleeper Magazine",
-    "publishedAt": "2020-08-04T07:00:00.000Z",
-    "id": "54179f4b2d7d737b",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T19:34:52.368Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "Junta de Freguesia de Arroios",
-    "title": "Freguesia de Arroios: Eleições Autárquicas de Outubro de 2025",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ3dLelREMTZtT2JhMTR6S1YtckZGdHdWMHY4dW5FWkxoV0pMN3FMY1FFM3RzUmE5R3gwNUxhQkRJc1B5elAwSnNYazNsdlhvM0VaUnd0YzFjbmxxX2dZR3h4VzFrRDlKSFNFUUNEdHpPcjhhYUtvbWtyQVdVUTVIMHhZZ0hocy1uU3NBSkNsQUtBWVlyZ0k1Skt0d05VZXJz?oc=5",
-    "snippet": "Freguesia de Arroios: Eleições Autárquicas de Outubro de 2025 Observador",
-    "author": "Observador",
-    "publishedAt": "2025-10-03T07:00:00.000Z",
-    "id": "b45535a4a8ca0492",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T13:28:50.393Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "ibis",
-    "title": "Canon EOS R8 Mark II: full frame leve com IBIS de 7,5 stops feita para viajar",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GbU5FSWExTU0wY1I4NW1Md1loVllFN0FNVWtfU0xKOVhJcjVQX1QxT0d6cklxVjZQSk9QVjFYcThKWjI0T0JiZkRwMjBLNkwyZFZTMDhPUDNjRmxBa3NZZ2k4eVAxTTE0cEJvLXJTY0xzb3llWGpJZQ?oc=5",
-    "snippet": "Canon EOS R8 Mark II: full frame leve com IBIS de 7,5 stops feita para viajar TechBit",
-    "author": "TechBit",
-    "publishedAt": "2026-09-16T07:00:00.000Z",
-    "id": "04f98aadd5b2d951",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T13:28:50.393Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "ibis",
-    "title": "Hotel na Barra Funda: os 15 mais bem avaliados no popular bairro paulistano",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CdVNsRVUtTS1YQk4tM2tRYm9INk1ERmF5a1YyVjljbnhRNEVLcll2Q3VjRHFab29Ebzd3VzBTT1ZrdjRGSXYxM19QdUhqZG12SC1GRzdJdDBCVUI3b01GLXc1SWNmZHZWQ29ONVNR?oc=5",
-    "snippet": "Hotel na Barra Funda: os 15 mais bem avaliados no popular bairro paulistano melhoresdestinos.com.br",
-    "author": "melhoresdestinos.com.br",
-    "publishedAt": "1970-01-01T00:00:00.000Z",
-    "id": "4ac50ef1c82c3dbd",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T13:28:50.393Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "hotel ibis",
-    "title": "Como as marcas estão usando as novelas que cabem no bolso",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT2VYTWxCMkRoZTUtNDZzdjBlOXVQMk9VbEZiWVlBVTlNcnRYYmZMUkhJTm11VnI2WUlYNGVEdWZlQ3RVQkRESEFMdldFQ2ZhaW5OeTlMUDVlWjlHS2d5ejNJMVllLU5kNURmQTZBWXExZGVVREFmTTF3SmMtczdjdlM2OXFVN0JGNmx6dUNFdHh4Y181SU1VMTBKV0k5WFRqZWo3UkNqN0F0LWpORTgwSzRHSjRhQQ?oc=5",
-    "snippet": "Como as marcas estão usando as novelas que cabem no bolso Valor Econômico",
-    "author": "Valor Econômico",
-    "publishedAt": "2026-05-25T07:00:00.000Z",
-    "id": "acdb5b4bf2990f3c",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-16T13:28:50.393Z",
     "isNew": false,
     "baseline": false
   }
