@@ -3,18 +3,54 @@
     "source": "google_news",
     "platform": "news",
     "language": "pt",
+    "keyword": "Casa dos Animais de Lisboa",
+    "title": "Festa do Animal",
+    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQWFlGTUtiZ0ZiUlIwMDA1NTF2cUlkaHZaLVg2aksweTRRU2V6WmY0RVhfMTYyaFJfNFZudlNLN0swcXBMWDFQUkgxQW0wOVlwOEVJcnRGbnFoUGdPQVM4cW5zcXFjekNVc3htOFltTlJxZVRZeTRrVHo1VFgtbXo2R3B3NkFLcDNkbHFzaE5nY25TczVWRGJaNEQtc0hnTUo2djRvcjJzSGsta01leE1PanZRc3oxOHhaczdfTlNMTmhnTTAyQ3hwRFZkSFFvdzRWbmQwN0JpTXNNNF9YV0xfZExid2FOYTZLcGc3cV9CM29XdWxfekRzMGFxcEtYOGNmRXZmSjZyWU9heTBtSkZ1NXAyalJPRHBMdmxaUGU4TTEzclVQejNDODdULW1NeWVqMXZ5R2ZCZmpvOFRRNHFOa3U0Z2hILUZHcVRLWm9CTUc0dw?oc=5",
+    "snippet": "Festa do Animal Informação Lisboa",
+    "author": "Informação Lisboa",
+    "publishedAt": "2026-10-14T17:33:28.000Z",
+    "id": "8e1b5941187b7798",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-24T18:49:17.981Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis",
+    "title": "Accor appoints Deeppreet Bindra as director - ibis & ibis Styles in India",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNVZqTVplZGw0Z2dhV0VFUXBCdnBaekJEaW9XU19zdXFXRTQ1b3pSY2JVZU12U0pod0xoTEJqLWtSa3hrdURidnl0ZHUyNVhnclNvYkZuNGw5U0llaGQ5T1J6eTAzSjlUOHNPeGFtNUZ2dTBDajI5Vk5JeE5BSWY5dzI5b3pqOHhWNjRsb3dWMUMyZENDUEI0cEpkSzBHazRKSl9na2hNVUJ3emYxOE1OUDdUal8wRF9ERUVObGtCZHZwakZmUERBakdPTWVNU1BGVDF6Z2pqONIB2wFBVV95cUxNcjZhd0hDOEZVUFJLSE8tSVhUQmxlX0xIRE1Kb1ZWdnlUOUI5RWl6ZEVWYS1SVF9pYXpESmhCSTllX292dXlwRFBhTU1YblA5V0RJbUdOWDQ1d1Y2WU1nT2FxbU9SR0dOYmF6Y3lVM09Od0VBNXFVZFVfeEVMWXZISE5XOHFsTXFwcFFzZGVnb3RPU2FyRFh2T2Y3TEM3QU9SRzNCT2w0QU0wbU1jVE55R1ZSMC1jNGUyOTBDbGZuWkE1Tm9LdFZEcFhjTEdQdndnNFVSTnh4azVIY28?oc=5",
+    "snippet": "Accor appoints Deeppreet Bindra as director - ibis & ibis Styles in India ET HospitalityWorld",
+    "author": "ET HospitalityWorld",
+    "publishedAt": "2026-10-24T13:06:21.000Z",
+    "id": "1206fc5315b3ceb2",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-24T18:49:17.981Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
     "keyword": "Junta de Freguesia de Arroios",
     "title": "Bancas do Mercado de Arroios transformam-se em estantes para livros",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVk55bGpXanA2bzlzbGtpb1ktZGRobWsxNW9hbjk3ZHVXc24xNWo3S2luZnV0S0JmMFlUN0Rjc2Zvb3AzRVFpWEdyUU1iTlBXSnhVV1FUd0NFMXI5eU1MZ2FVVXl2MTZMdVVmOXRCY3lVa0hETWN5UTQ5OFNUaWVqQjk2c0kyb1dkNXpMS190MF9nbl9OOEZlRUV2Y1pzNjZTU1AwLUF2Z3ZldC1NcjQwZmtn?oc=5",
     "snippet": "Bancas do Mercado de Arroios transformam-se em estantes para livros RTP",
     "author": "RTP",
-    "publishedAt": "2026-10-23T22:12:29.000Z",
+    "publishedAt": "2026-10-24T06:04:57.000Z",
     "id": "0fa55268cad368fb",
     "sourceType": "earned",
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +68,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +86,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +104,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +122,7 @@
     "sentiment": "positif",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +140,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +158,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +176,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -152,13 +188,13 @@
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZXI2RnNFblFuQk5UMndEZ3lvNGlBRlNBZG9VNlB2T2ZIeldrbV9US1htY0dMTkdGUGtWVUs4RWdCemdENFd6dVZrbFJJYmNZeUJPNnZjR21TTjA3SGF5XzBRN2JYRkwtU0gyckdKNk14N2FuaW83TzBZaDBpN2NSM0lsX01Yb1BVU2c?oc=5",
     "snippet": "Hotéis pet-friendly em São Paulo: confira diárias a partir de R$ 182 Pontos pra Voar",
     "author": "Pontos pra Voar",
-    "publishedAt": "2026-10-23T22:00:28.000Z",
+    "publishedAt": "2026-10-24T16:00:16.000Z",
     "id": "cbaa2a5d774ec036",
     "sourceType": "earned",
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -176,7 +212,7 @@
     "sentiment": "négatif",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -194,7 +230,7 @@
     "sentiment": "négatif",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -212,7 +248,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -230,7 +266,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -248,7 +284,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -266,7 +302,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-24T12:38:53.785Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -3590,7 +3626,7 @@
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVdINC0tREtmN3hiRzZsa0RVcHR3eHZkMkxtM2NDa3JpY29pNG9MR3FHakNQNkw4LWFXN25GX2t3V0ZPVjE1bEUtdWJaSTNpbHlsSXpEeF9qMG5YX09LUUNxVE85S3lCLUo0V2dQWExsWGFrV1pRdWZ0MVNzNFNHMXVrc2VDQXpORE9ZWl9TU0txaXk5S3V6dUtEUWJtMGM?oc=5",
     "snippet": "Accor appoints Deeppreet Bindra as Director – ibis & ibis Styles India Travel Trade Journal",
     "author": "Travel Trade Journal",
-    "publishedAt": "2026-10-14T06:59:49.000Z",
+    "publishedAt": "2026-10-14T07:00:00.000Z",
     "id": "e3eb308b04f3838c",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -5786,7 +5822,7 @@
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM21XQVpJcXlxSERCOGNrUGNkbUxhMmNFQ3hvQWZ5Z3d6ajVOU0ZZXzk2bkZfV2pSREtSRUxkUFBVMTZacU1FRUZ2djgza3FTOG9kOUVUOXVOWGxlaXJ1OUhIZXYwSDVacGFrRGZ6WDBNdTR4eGdNMUhBRWthU3F5ZzdDSEtIVXFSR0NBOVpBMjZxMTN6cUo0VWlPMA?oc=5",
     "snippet": "Bird flu tests underway after 59 ibises found dead in Bendigo ABC News & Headlines – Australian Broadcasting Corporation",
     "author": "ABC News & Headlines – Australian Broadcasting Corporation",
-    "publishedAt": "2026-10-01T07:00:00.000Z",
+    "publishedAt": "2026-10-02T07:00:00.000Z",
     "id": "857725866753a704",
     "sourceType": "earned",
     "sentiment": "négatif",
@@ -8252,7 +8288,7 @@
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XT1g5a0RzREExdmZfX1dNaERRRFFhWGVWWGVycl9neXNTTjNpSVRZcTBUWnNnMi1rR2VvOEl4TEtrY05JM0p6bG5ZTzRYSTlUVnF2MkxYWnowZU4tU2V6S2FMVTNzTW93SGFnVnNjaHM3eE1lNVpvaA?oc=5",
     "snippet": "Accor to Bring Pullman and ibis to Bengaluru Airport https://safariindia.com/",
     "author": "https://safariindia.com/",
-    "publishedAt": "2026-10-02T12:04:16.000Z",
+    "publishedAt": "2026-09-22T08:58:08.000Z",
     "id": "d00bbf7e93fb1a95",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -8960,42 +8996,6 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-09-19T12:28:26.812Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "Starboard Adds Ibis Portfolio",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT1RJUTNGNmlpMHhqRkdQTFdKck9TR1p2emF1TklMRFJHOUhmWG1YYWlPTlBXNkxsZ2ZTY0ZqbmFvbkh3ajR5YUo0S2pFSTZUOHRzOVNwQ01pQU9LSXppTVNqYnV3RVZudnJLeGZJM3lIQUhWVXpsUFNBV25DSFM5OQ?oc=5",
-    "snippet": "Starboard Adds Ibis Portfolio THP News",
-    "author": "THP News",
-    "publishedAt": "2026-09-18T07:00:00.000Z",
-    "id": "14ed74cb3fad1855",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-18T12:56:45.596Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis",
-    "title": "ibis Hotels Offers Festive Stay Discounts Ahead of Ganesh Chaturthi",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaHZZYVNBWTYtQngzWnNFVlUzRnVPRHZUUXNNMy1PUE1Zd2diaDduVE16aHRMVFdnM0NrUE8tX3p4NkFPYmhCVjJMQk9lZWw0U1Y4RmRTYXNvSW01eGFIQ1VyWWRfaWd3NXNXMnJGYVVIZVEzUFp0bENxd0E1VWxGN004VzFmdklDdkNKQkRBNlFHNkRpdTZlRndveTVuUTA0LVR5VzJ6SHl3YmNJN3V5ektCdlUtd3ZreGRB0gG7AUFVX3lxTE9odllhU0FZNi1CeDNac0VWVTNGdU9EdlRRc00zLU9QTVl3Z2JoN25UTXpodExUV2czQ2tQTy1feng2QU9iaEJWMkxCT2VlbDRTVjhGZFNhc29JbTV4YUhDVXJZZF9pZ3c1c1cyckZhVUhlUTNQWnRsQ3F3QTVVbEY3TThXMWZ2SUN2Q0pCREE2UUc2RGl1NmVGd295NW5RMDQtVHlXMnpIeXdiY0k3dXl6S0J2VS13dmt4ZEE?oc=5",
-    "snippet": "ibis Hotels Offers Festive Stay Discounts Ahead of Ganesh Chaturthi hospibuz.com",
-    "author": "hospibuz.com",
-    "publishedAt": "2026-09-18T09:14:40.000Z",
-    "id": "6f5d0e39a70ef5f5",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "HIGH",
-    "firstSeenAt": "2026-09-18T12:56:45.596Z",
     "isNew": false,
     "baseline": false
   }
