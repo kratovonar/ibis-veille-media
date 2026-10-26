@@ -2,6 +2,42 @@
   {
     "source": "google_news",
     "platform": "news",
+    "language": "en",
+    "keyword": "hotel ibis",
+    "title": "Rush hour traffic held up with immigration protests",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jSTJ5aEN2YzdaLUdXNlhoMVZSNHV6SDJhUUZjSU5icnNEYnRaYThZNXNqWk5BQ3E4T09waGpFcm5KT2tLV09EcklWdjBfTUtWeUdkeUNvTGY0N1dPTjRZcUtocUc1U0JYZnlaUDlyTjFEN0wxeDU3ckd5YzI?oc=5",
+    "snippet": "Rush hour traffic held up with immigration protests Echo.ie",
+    "author": "Echo.ie",
+    "publishedAt": "2023-01-20T08:00:00.000Z",
+    "id": "0fa86e2874d75804",
+    "sourceType": "earned",
+    "sentiment": "négatif",
+    "risk": "MODERATE",
+    "firstSeenAt": "2026-10-26T21:02:48.869Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "en",
+    "keyword": "ibis budget",
+    "title": "Pre FloridaTravel Day | Ibis Budget stay Manchester Airport",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FWmUyRXl1TTFaazFVSzFfOXZoelpoZGJ1aS1KWjlxSC1sWkZocGJZRXZTMFY5Y0NhRW42VTBPZksweDljVGlHaDMtOWM1ZGlVYkVPd1I4NWROZ0Jt?oc=5",
+    "snippet": "Pre FloridaTravel Day | Ibis Budget stay Manchester Airport YouTube",
+    "author": "YouTube",
+    "publishedAt": "2023-12-28T08:00:00.000Z",
+    "id": "4dab09752f0db9e7",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-10-26T21:02:48.869Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
     "language": "pt",
     "keyword": "Junta de Freguesia de Arroios",
     "title": "Festa do Livro Independente regressa a Arroios com mais de 120 participantes",
@@ -14,7 +50,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +68,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +86,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +104,7 @@
     "sentiment": "neutre",
     "risk": "HIGH",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +122,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +140,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +158,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +176,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -158,7 +194,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -176,7 +212,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -194,7 +230,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -212,7 +248,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-10-26T15:09:15.829Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -2492,7 +2528,7 @@
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQVFxMWIwdnR4U0Z5VElyZUxhS1RZdUxvTUxyblQ4bzFCTjlqbmJjSllwOFN0d2FqMHdmblZNRnA0MnYtLU1nZHhma0RwYUlJTDBxRVZrS2l3bEZQSUMxNkJmR2hKcW9MSzFsUG5vQWhCczBfTUlZSk9JcTIweDVycy1SOXNoVy1laXVjZA?oc=5",
     "snippet": "America PE - Ibis Sport Club 1-1 Flashscore.pt",
     "author": "Flashscore.pt",
-    "publishedAt": "2026-10-20T21:58:21.000Z",
+    "publishedAt": "2026-10-20T07:00:00.000Z",
     "id": "77ad963cbdc8fb45",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -3392,7 +3428,7 @@
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jNWQySGlqX0pJY2RpT3l1VnlFWlVJUmk3eW8xcXNCNDRfVU56eDhYZ3F4RTBCUW1weGM2MnV1Y2E5NTR2U243V3BjYk5xUXBNY3BreUF5UE93cW8xWjNJNE1pTEkyZkJCbG5FMkd4SmtJV2Z1NlBqWVVKbw?oc=5",
     "snippet": "Hotéis ibis no Rio de Janeiro: diárias a partir de R$ 213 Pontos pra Voar",
     "author": "Pontos pra Voar",
-    "publishedAt": "2026-10-17T11:49:19.000Z",
+    "publishedAt": "2026-10-17T07:00:00.000Z",
     "id": "f91b0c46ba96f84b",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -8960,42 +8996,6 @@
     "sentiment": "positif",
     "risk": "HIGH",
     "firstSeenAt": "2026-09-22T13:23:14.245Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis styles",
-    "title": "There’s love for every kind at Novotel and ibis Styles Manila Araneta City this Valentine’s",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ2I1NzVvdFItSUpaQndwNENqRjBYVXczSjFXbGVpNEpETTNJS3dGYzZBV3RHY0JtcXhLWV9ic0tndFVrR1VqY2FjOUVjOHJxNnlibUExZnhpTWtvSWRLZTZNX1pRMFctSktMdUtMczFZQnVBS182UWtxRnFObGNVc0NxaHh5dlV0aGpRdl82ZllycWw4NGFkMmNxeDY3Y25mWVhxdFJFcENHTE5YMmxqeGVjLXBIaUhtZllQSGJNcnJjRkR2WWdQTm52UGxsMmI2N2J3OTNB0gHWAUFVX3lxTE5DYjU3NW90Ui1JSlpCd3A0Q2pGMFhVdzNKMVdsZWk0SkRNM0lLd0ZjNkFXdEdjQm1xeEtZX2JzS2d0VWtHVWpjYWM5RWM4cnE2eWJtQTFmeGlNa29JZEtlNk1fWlEwVy1KS0x1S0xzMVlCdUFLXzZRa3FGcU5sY1VzQ3FoeHl2VXRoalF2XzZmWXJxbDg0YWQyY3F4NjdjbmZZWHF0UkVwQ0dMTlgybGp4ZWMtcEhpSG1mWVBIYk1ycmNGRHZZZ1BObnZQbGwyYjY3Ync5M0E?oc=5",
-    "snippet": "There’s love for every kind at Novotel and ibis Styles Manila Araneta City this Valentine’s Philstar.com",
-    "author": "Philstar.com",
-    "publishedAt": "2026-02-13T08:00:00.000Z",
-    "id": "e08a4c5a8ea94ef1",
-    "sourceType": "earned",
-    "sentiment": "positif",
-    "risk": "LOW",
-    "firstSeenAt": "2026-09-22T13:23:14.245Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "pt",
-    "keyword": "Casa dos Animais de Lisboa",
-    "title": "Casa dos Animais de Lisboa apoia projeto PET Friendly",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSFpzb1pHLWNWb0hfdDk1NThwb3p3WTctcDJLN3Y2cWUwWUFFMFZRNEJxdXp2cjlQWkZnNzF5LURZVnh5dlZfbVRxdzhwMHNXRGtoTHNaZ09nSHNzTWZ2OW5OaUFyTmpVaWF1VFRINFhsV1FfM3QyMUJ5dVd2bl91Q19leW5FWVZ2VXluM0x1dTRDRmwyaVVJeEZteW1SRFFKWE9Mb25hUjJPUk0?oc=5",
-    "snippet": "Casa dos Animais de Lisboa apoia projeto PET Friendly Informação Lisboa",
-    "author": "Informação Lisboa",
-    "publishedAt": "2026-03-20T07:00:00.000Z",
-    "id": "b47e13188368178c",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "MODERATE",
-    "firstSeenAt": "2026-09-21T15:05:09.127Z",
     "isNew": false,
     "baseline": false
   }
