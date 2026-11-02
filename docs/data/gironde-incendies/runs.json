@@ -1,5 +1,17 @@
 [
   {
+    "ranAt": "2026-11-02T18:16:55.150Z",
+    "status": "ALERT",
+    "nNew": 41,
+    "nTotal": 500,
+    "byRisk": {
+      "HIGH": 40,
+      "MODERATE": 89,
+      "LOW": 371
+    },
+    "isBaseline": false
+  },
+  {
     "ranAt": "2026-11-01T20:32:57.145Z",
     "status": "ALERT",
     "nNew": 22,
