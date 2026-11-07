@@ -1,78 +1,23 @@
 {
   "subjectId": "saldanha-chats",
   "subjectLabel": "ibis Saldanha · chats",
-  "generatedAt": "2026-11-06T21:32:44.772Z",
+  "generatedAt": "2026-11-07T14:52:49.742Z",
   "status": "RAS",
   "isBaseline": false,
   "alertThreshold": "HIGH",
-  "alertSince": "2026-10-07T21:32:44.772Z",
+  "alertSince": "2026-10-08T14:52:49.742Z",
   "alertWindowDays": 30,
-  "nextRun": "2026-11-07T08:17:00.000Z",
+  "nextRun": "2026-11-07T16:17:00.000Z",
   "counts": {
     "total": 500,
-    "new": 3,
+    "new": 0,
     "byRisk": {
       "HIGH": 11,
       "MODERATE": 55,
       "LOW": 434
     }
   },
-  "newMentions": [
-    {
-      "source": "google_news",
-      "platform": "news",
-      "language": "pt",
-      "keyword": "ibis",
-      "title": "Hotéis perto de aeroportos com diárias a partir de R$ 218",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MZWY2RTF3UEs2ZDVaLTdTb3FTTFZmeTZKQXVUQWhBUk9UMExiRlpEbzNNQVo1MmozTFlpUWxabDVQZTd0OFpZbE5hMFlIMjBrclFXamcwRURPblJWX0RCODBpanE3NzE1cVYxUjFFMW9Yck4xcGlV?oc=5",
-      "snippet": "Hotéis perto de aeroportos com diárias a partir de R$ 218 Pontos pra Voar",
-      "author": "Pontos pra Voar",
-      "publishedAt": "2026-11-06T20:00:01.000Z",
-      "id": "d5368aae6edee96d",
-      "sourceType": "earned",
-      "sentiment": "neutre",
-      "risk": "LOW",
-      "firstSeenAt": "2026-11-06T21:32:44.772Z",
-      "isNew": true,
-      "baseline": false
-    },
-    {
-      "source": "google_news",
-      "platform": "news",
-      "language": "pt",
-      "keyword": "ibis",
-      "title": "Aplicação do modelo de vegetação dinâmica IBIS às condições de floresta de terra firme na região central da Amazônia.",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeVBGUjNqcnV3enZoRUszOF93Z053bndMQU1DcWdUQkh1dFJmWF9sWXlxYTlSVkhDUnc0a1Q1RXFmbnFXbVE3QzM0UkU3VjBRZVJwZzBteDhHbVBHVzR4YW9OT01hWFpITXktLUkzTXFuQ0NTTXdTZUdkdW1LazZkRHZ6RGU5SUp4WWpIeEhJZzVhNmNkMG40YVNnM084ZmNoRExHT0NBYU90Y2xseU8tcWk4QWtuNjBCcTBDV2h3eTBLbkRPS1BLTC1LbWkzby1FOTVVWGlXMlZ1YWswQ2xnT2J3aUFmMUxTOWZqd1dZNk1SUFVMNmRCbDUta0o4UC1ka0NHSjJOLVczYi11?oc=5",
-      "snippet": "Aplicação do modelo de vegetação dinâmica IBIS às condições de floresta de terra firme na região central da Amazônia. Embrapa",
-      "author": "Embrapa",
-      "publishedAt": "2014-05-07T21:45:50.000Z",
-      "id": "e4b41f02a8417346",
-      "sourceType": "earned",
-      "sentiment": "neutre",
-      "risk": "LOW",
-      "firstSeenAt": "2026-11-06T21:32:44.772Z",
-      "isNew": true,
-      "baseline": false
-    },
-    {
-      "source": "google_news",
-      "platform": "news",
-      "language": "pt",
-      "keyword": "ibis",
-      "title": "Dois hotéis de Conquista recebem certificação ESG Pulse",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM2k0Ql9sYzFKSzR3WGZrZTRfVVBmX3BnOTREeXRuSEU5U2Ztc2tqemVjaHM1cTQ0cG9SSEMtZkhuZmppRC1INHBGS1NMTFlXSzdYalpHOTBZNHJRSElTSUxMLWVRT1hRQWVQV28yaWxsQWlPMTBBQm9Sd3l1X1hQTURfZkR4YnUwQ0prWQ?oc=5",
-      "snippet": "Dois hotéis de Conquista recebem certificação ESG Pulse Blog do Caique Santos",
-      "author": "Blog do Caique Santos",
-      "publishedAt": "2026-11-06T18:04:00.000Z",
-      "id": "1e3b39f12de223c1",
-      "sourceType": "earned",
-      "sentiment": "neutre",
-      "risk": "LOW",
-      "firstSeenAt": "2026-11-06T21:32:44.772Z",
-      "isNew": true,
-      "baseline": false
-    }
-  ],
+  "newMentions": [],
   "alerting": [],
   "manualWatch": [
     {
