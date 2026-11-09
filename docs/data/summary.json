@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T20:31:11.992Z",
+  "generatedAt": "2026-11-09T18:43:33.972Z",
   "subjects": [
     {
       "id": "saldanha-chats",
@@ -18,14 +18,14 @@
       "id": "gironde-incendies",
       "label": "Incendies Gironde · Accor",
       "status": "ALERT",
-      "nNew": 32,
+      "nNew": 42,
       "nTotal": 500,
       "byRisk": {
-        "HIGH": 52,
-        "MODERATE": 109,
-        "LOW": 339
+        "HIGH": 49,
+        "MODERATE": 110,
+        "LOW": 341
       },
-      "alerting": 2
+      "alerting": 1
     }
   ]
 }
