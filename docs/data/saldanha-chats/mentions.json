@@ -14,7 +14,7 @@
     "sentiment": "neutre",
     "risk": "MODERATE",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +32,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +50,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -68,7 +68,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +86,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +104,7 @@
     "sentiment": "positif",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +122,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -140,7 +140,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -158,14 +158,14 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-13T16:16:27.491Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
     "source": "google_news",
     "platform": "news",
     "language": "en",
-    "keyword": "ibis",
+    "keyword": "ibis hotel",
     "title": "Video: Brief manhunt after apparent gunshot in Tilburg Ibis Hotel; One arrested",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeUhPOWplTm1rU2ZMbGgtOFpHUWNNY2pleXBJUFhxZ0VqRE02ZEdCeVJoODREeDFNS2RsQ1pqWkVhQzQ3Y2QyVlFFSTlsckRWaGhSSGtSUUN1M3B6bjJpcy1mYnoyS1Y1R0xLUnp5NWFoZzBnUF9UU3RaZkluOHRUVF9rdDNycWxzVnFpaXhtVnNCUHFXWlpzTEVMcjFlTHM?oc=5",
     "snippet": "Video: Brief manhunt after apparent gunshot in Tilburg Ibis Hotel; One arrested NL Times",
@@ -2022,8 +2022,8 @@
     "keyword": "ibis",
     "title": "Nest support plants and breeding season of two ibis (Theristicus) species in the Pantanal wetland, Brazil.",
     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOWp0b1FhaHBfVnJhZi1JVnc1MFN5Rnd0TVFBZkV2QVpSYW9iRUJ6Y2p1dHBLcTZydzlEMzdfb3BnZV9TTThNbFJPZmYtLTEwTGczYzNXLXVZN3JFY2ZpZk9VUk5Md2dCa1dlT0tmWkZVVy13Qm5VREZ2UnAxcTl3OGpFbGdiTnA0Q2dzdjdRWEFrSTFGb053SUNtVHRKYlNudXlmWVVSeklwc09pNXZvQkg3cVE1WEpwOG03SEQxTXRrRU9MclhVOW9SZ05HMVhBa01GVlZFZUVPeHV6SDZsLTN4ZFIyZ3RaZ29FOU4zMmlIamtRRUdWWmYtTQ?oc=5",
-    "snippet": "Nest support plants and breeding season of two ibis (Theristicus) species in the Pantanal wetland, Brazil. Embrapa",
-    "author": "Embrapa",
+    "snippet": "Nest support plants and breeding season of two ibis (Theristicus) species in the Pantanal wetland, Brazil. A Embrapa",
+    "author": "A Embrapa",
     "publishedAt": "2022-06-27T09:29:24.000Z",
     "id": "d21a6e19e1848875",
     "sourceType": "earned",
