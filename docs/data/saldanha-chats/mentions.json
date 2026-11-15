@@ -2,6 +2,42 @@
   {
     "source": "google_news",
     "platform": "news",
+    "language": "en",
+    "keyword": "ibis hotel",
+    "title": "Ibis Glen Waverley joins Novotel in hotel sale race",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEg4VHVqYUcxcGdaUlFBRjdHTE5fOW5ac0h2UkhET2RXd2xzOXNLZ2pmbkpKQ2pVb1gxVWxqTWpRX2dHUGE4WWMzbUV5U3RDUHhFbGJRbU00N1hMUFpwdWNYaEFYTmxlb2FVRnhRZ2wtTXdxTjg5UVB2QUJwRzQ0YmNhbjk2UktuejVoYUhDbFNPdl92?oc=5",
+    "snippet": "Ibis Glen Waverley joins Novotel in hotel sale race Real Commercial",
+    "author": "Real Commercial",
+    "publishedAt": "2019-05-31T07:00:00.000Z",
+    "id": "43f212a690b06825",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-11-15T21:04:18.468Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
+    "language": "pt",
+    "keyword": "ibis styles",
+    "title": "Ibis Styles em Bauru recebe selo All Safe que segue o padrão mundial de higiene e sanitização",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNHA3VlF1VzhCNlRxRDJCOVZCZFV6ZVltRlNCOUlHcnRlbG1mbmdaRlBUWmgzQ3dhbjA3R19wNTlJQkVnMFdBNFdwVlVFY1NjcUJJWkJZelNHeEQtN2tzUjA5ZEVBSnFUbjl2a3dZd2pHS2lod1djMjBVTmJRbkFVNkd2LU5xVEpOODN0X2I1alF0OE5qV1VBY0lPc3hyaVZSYVd6SXVn?oc=5",
+    "snippet": "Ibis Styles em Bauru recebe selo All Safe que segue o padrão mundial de higiene e sanitização Social Bauru",
+    "author": "Social Bauru",
+    "publishedAt": "2020-07-08T07:00:00.000Z",
+    "id": "bb06aa1948a8500b",
+    "sourceType": "earned",
+    "sentiment": "neutre",
+    "risk": "LOW",
+    "firstSeenAt": "2026-11-15T21:04:18.468Z",
+    "isNew": true,
+    "baseline": false
+  },
+  {
+    "source": "google_news",
+    "platform": "news",
     "language": "pt",
     "keyword": "ibis Lisboa Centro Saldanha",
     "title": "Veja os dez melhores hotéis Accor em Lisboa – Diárias a partir de R$ 442",
@@ -14,7 +50,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -32,7 +68,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -50,7 +86,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -62,13 +98,13 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FRmxQSkhEcGRlN2VaX09UVHlKX0NycEF6Rmh1Z3Bubms2aEpqaHhaVTBwVHExd29aaXdpaE9oRVV1VE9fT3MxZ1BEVDk3VDdNbUE3MDdjOWpQWEVaQ0tfQ0RRX3ZwNzhPdm1GcUFFSW00dw?oc=5",
     "snippet": "Hotéis pelo Centro-Oeste com diárias a partir de R$ 135 Pontos pra Voar",
     "author": "Pontos pra Voar",
-    "publishedAt": "2026-11-15T13:00:16.000Z",
+    "publishedAt": "2026-11-15T16:00:53.000Z",
     "id": "4294210673494909",
     "sourceType": "earned",
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -86,7 +122,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -104,7 +140,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -122,7 +158,7 @@
     "sentiment": "neutre",
     "risk": "LOW",
     "firstSeenAt": "2026-11-15T15:37:54.681Z",
-    "isNew": true,
+    "isNew": false,
     "baseline": false
   },
   {
@@ -1052,7 +1088,7 @@
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQzdTX1RGZVhZNktmNC1BMEdPVlYtQ1pIVHV5dGdBeXBmSXdJU1h4SjJjZkFfazFFWk95VFhzcVJ2SDhBOEcydW15c1pnM2NQeERmeXBrcmVOZ1JnelMyVHh6Nl9VOWZ1LU03VUJLUHQxRTZGMnl2T0JBWXdSaHZ6ek9TaXdHOTQxQjdwMkpwQlhIaDE2djd5dXJLSEFQRlBBeGtZQmV4MVNUOWtNc0wtU2NmM0hJanot?oc=5",
     "snippet": "Íbis 1 x 1 Sete de Setembro-PE | Campeonato Pernambucano: melhores momentos ge",
     "author": "ge",
-    "publishedAt": "2026-11-07T17:22:24.000Z",
+    "publishedAt": "2026-11-07T08:00:00.000Z",
     "id": "4a2478f4602bb42b",
     "sourceType": "earned",
     "sentiment": "neutre",
@@ -8958,42 +8994,6 @@
     "id": "560c666ad46f05fe",
     "sourceType": "earned",
     "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-10T20:06:42.124Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "ibis hotel",
-    "title": "American teen arrested in Paris after newborn fatally thrown from hotel window",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVU3ZFNoWTAyM2pSUnk1Vy1CbmRGejVaWEtmNTR0QmVtaldSUm96TGY2U0g3bzgyOTBHWjE5SzJSWm9qQ2pXY0l4YzJTeXVFMzFxQ2ZMNlpteHk0cmFzal9oelBZVTVxVm1ONTd4alp1U3F1OTZDZEFTMk5QWlV4MTVIQmhDbEItRjVOZnZXRHlJSk44a2JiWmZYQWwyOVFlZUM0dGtSeHFMZFlOR0lB?oc=5",
-    "snippet": "American teen arrested in Paris after newborn fatally thrown from hotel window WSVN",
-    "author": "WSVN",
-    "publishedAt": "2025-02-25T08:00:00.000Z",
-    "id": "0524f85176530134",
-    "sourceType": "earned",
-    "sentiment": "neutre",
-    "risk": "LOW",
-    "firstSeenAt": "2026-10-10T20:06:42.124Z",
-    "isNew": false,
-    "baseline": false
-  },
-  {
-    "source": "google_news",
-    "platform": "news",
-    "language": "en",
-    "keyword": "hotel ibis",
-    "title": "Guest shames hotel for serving frozen supermarket pizza on menu for triple the price",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTE8wY3REOFI4MTN2ZDdiN1BmbGNSQS1SRUlVTmh4VEYzOEg3anlWaThfTmtPd1REU0RMUnpTRnozSjNoSWpRcWNuUzNxREFGRHBTZlJycmRyZ2JlakpzMUFfZUJrU0dXNGVXWWxIbWVCbS1udC11OG9KZFh2NEZYSnB3Y1FEanfSAYwBQVVfeXFMUGxKajNDcWdNaV9LTktXRHgwWjBUc0pPQVRsMHRKMXAycERhMklyVElMZ0dFSjhRT19DYTItRWxfcHFGelRGU3RlZ1piUXpYX1JPUzg5bU1CNEhoY3otbE05bFg2OEtpR1dud2FsYzVqSEhEbHRHWE5zUVM4WHBVS3BYb0huUlJRUV9zZlM?oc=5",
-    "snippet": "Guest shames hotel for serving frozen supermarket pizza on menu for triple the price Daily Mirror",
-    "author": "Daily Mirror",
-    "publishedAt": "2023-02-05T08:00:00.000Z",
-    "id": "21d04e173ed0069d",
-    "sourceType": "earned",
-    "sentiment": "négatif",
     "risk": "LOW",
     "firstSeenAt": "2026-10-10T20:06:42.124Z",
     "isNew": false,
