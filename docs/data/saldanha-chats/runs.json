@@ -1,5 +1,17 @@
 [
   {
+    "ranAt": "2026-11-17T00:16:39.388Z",
+    "status": "RAS",
+    "nNew": 7,
+    "nTotal": 500,
+    "byRisk": {
+      "HIGH": 12,
+      "MODERATE": 53,
+      "LOW": 435
+    },
+    "isBaseline": false
+  },
+  {
     "ranAt": "2026-11-16T18:28:08.802Z",
     "status": "RAS",
     "nNew": 4,
@@ -2384,18 +2396,6 @@
       "HIGH": 14,
       "MODERATE": 65,
       "LOW": 421
-    },
-    "isBaseline": false
-  },
-  {
-    "ranAt": "2026-08-08T08:57:49.173Z",
-    "status": "RAS",
-    "nNew": 9,
-    "nTotal": 500,
-    "byRisk": {
-      "HIGH": 17,
-      "MODERATE": 67,
-      "LOW": 416
     },
     "isBaseline": false
   }
